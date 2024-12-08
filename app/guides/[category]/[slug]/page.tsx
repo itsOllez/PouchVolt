@@ -241,7 +241,9 @@ export async function generateStaticParams() {
   );
 }
 
+
 export async function generateMetadata({ params }: { params: { category: string; slug: string } }): Promise<Metadata> {
+  
   const article = articles[params.category]?.[params.slug];
   
   if (!article) {
@@ -250,6 +252,7 @@ export async function generateMetadata({ params }: { params: { category: string;
       description: 'The page you are looking for does not exist.'
     };
   }
+  
 
   return {
     title: article.title,

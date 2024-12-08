@@ -1,8 +1,8 @@
-import { generateMetadata } from "@/lib/metadata";
+import { generatePageMetadata } from "@/lib/metadata";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Shield, Users, Zap } from "lucide-react";
 
-export const metadata = generateMetadata({
+export const metadata = generatePageMetadata({
   title: "About PouchVolt - Our Mission & Values",
   description: "Learn about PouchVolt's mission to provide accurate, comprehensive information about nicotine pouches and our commitment to responsible usage.",
   path: "/about"

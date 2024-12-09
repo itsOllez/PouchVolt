@@ -19,9 +19,10 @@ export function generatePageMetadata({
   openGraph = {}
 }: MetadataProps): Metadata {
   const url = `${SITE_URL}${path}`;
+  const fullTitle = `${title} | PouchVolt`;
 
   return {
-    title,
+    title: fullTitle,
     description,
     metadataBase: new URL(SITE_URL),
     alternates: {

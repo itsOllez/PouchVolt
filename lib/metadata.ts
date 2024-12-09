@@ -10,7 +10,7 @@ interface MetadataProps {
   };
 }
 
-const SITE_URL = 'https://your-domain.com';
+const SITE_URL = 'https://pouchvolt.com';
 
 export function generatePageMetadata({ 
   title, 

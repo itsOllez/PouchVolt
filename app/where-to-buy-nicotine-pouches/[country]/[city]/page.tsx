@@ -5,6 +5,7 @@ import { StoreCard } from "@/components/location/store-card";
 import { CityBuyingGuide } from "@/components/location/city-buying-guide";
 import Link from "next/link";
 import { ChevronLeft } from "lucide-react";
+import { convertFromSlug, convertToSlug } from "@/lib/slug-utility";
 
 interface Props {
   params: {
@@ -16,14 +17,16 @@ interface Props {
 export async function generateStaticParams() {
   return Object.entries(locationData).flatMap(([country, countryData]) =>
     Object.keys(countryData.cities).map((city) => ({
-      country,
+      country: convertToSlug(country),
       city,
     }))
   );
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const countryData = locationData[params.country];
+  // Convert the slug back to the original country key
+  const countryKey = convertFromSlug(params.country);
+  const countryData = locationData[countryKey];
   const cityData = countryData?.cities[params.city];
 
   if (!countryData || !cityData) {
@@ -55,7 +58,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default function CityPage({ params }: Props) {
-  const countryData = locationData[params.country];
+  // Convert the slug back to the original country key
+  const countryKey = convertFromSlug(params.country);
+  const countryData = locationData[countryKey];
   const cityData = countryData?.cities[params.city];
 
   if (!countryData || !cityData) {
@@ -123,6 +128,6 @@ export default function CityPage({ params }: Props) {
           </div>
         )}
       </div>
-    </>
+      </>
   );
 }

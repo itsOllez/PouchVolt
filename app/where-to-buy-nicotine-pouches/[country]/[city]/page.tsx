@@ -76,7 +76,7 @@ export default function CityPage({ params }: Props) {
       name: "PouchVolt",
       logo: {
         "@type": "ImageObject",
-        url: "https://your-domain.com/logo.png"
+        url: "https://pouchvolt.com/logo.png"
       }
     }
   };

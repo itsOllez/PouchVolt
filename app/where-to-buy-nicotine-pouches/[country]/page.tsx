@@ -7,6 +7,16 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { AlertTriangle, CheckCircle, XCircle, MapPin } from "lucide-react";
 
+// Utility function to convert country names to URL-friendly slugs
+export function createCountrySlug(country: string): string {
+  return country.toLowerCase().replace(/_/g, '-');
+}
+
+// Utility function to convert URL slugs back to original keys
+export function parseCountrySlug(slug: string): string {
+  return slug.toLowerCase().replace(/-/g, '_');
+}
+
 interface Props {
   params: {
     country: string;
@@ -15,12 +25,14 @@ interface Props {
 
 export async function generateStaticParams() {
   return Object.keys(locationData).map((country) => ({
-    country,
+    country: createCountrySlug(country),
   }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const countryData = locationData[params.country];
+  // Parse the slug back to the original key
+  const countryKey = parseCountrySlug(params.country);
+  const countryData = locationData[countryKey];
 
   if (!countryData) {
     return {
@@ -64,7 +76,9 @@ const popularityColors = {
 };
 
 export default function CountryPage({ params }: Props) {
-  const countryData = locationData[params.country];
+  // Parse the slug back to the original key
+  const countryKey = parseCountrySlug(params.country);
+  const countryData = locationData[countryKey];
 
   if (!countryData) {
     notFound();
@@ -84,7 +98,7 @@ export default function CountryPage({ params }: Props) {
       name: "Nicotine Pouch Guide",
       logo: {
         "@type": "ImageObject",
-        url: "https://your-domain.com/logo.png"
+        url: "https://pouchvolt.com/logo.png"
       }
     }
   };
@@ -177,7 +191,7 @@ export default function CountryPage({ params }: Props) {
               {Object.entries(countryData.cities).map(([citySlug, cityData]) => (
                 <Link
                   key={citySlug}
-                  href={`/where-to-buy-nicotine-pouches/${params.country}/${citySlug}`}
+                  href={`/where-to-buy-nicotine-pouches/${createCountrySlug(countryKey)}/${citySlug}`}
                   className="block"
                 >
                   <Card className="hover:bg-muted/50 transition-colors">

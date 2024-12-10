@@ -82,9 +82,6 @@ By accessing this site, you acknowledge and agree to these terms.
             <Link href="/sitemap.xml" className="text-sm text-muted-foreground hover:text-primary">
               Sitemap
             </Link>
-            <Link href="/accessibility" className="text-sm text-muted-foreground hover:text-primary">
-              Accessibility
-            </Link>
           </div>
         </div>
       </div>

@@ -5,6 +5,12 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { MapPin } from "lucide-react";
 
+
+export function convertSlug(slug: string): string {
+  return slug.replace(/_/g, '-');
+}
+
+
 export const metadata: Metadata = {
   title: "Where to Buy Nicotine Pouches - Global Availability Guide",
   description: "Find out where to buy nicotine pouches worldwide. Comprehensive guide covering legal status, availability, and store locations across different countries.",
@@ -55,7 +61,7 @@ export default function LocationsPage() {
           {Object.entries(locationData).map(([countrySlug, country]) => (
             <Link
               key={countrySlug}
-              href={`/where-to-buy-nicotine-pouches/${countrySlug}`}
+              href={`/where-to-buy-nicotine-pouches/${convertSlug(countrySlug)}`}
               className="block"
             >
               <Card className="hover:bg-muted/50 transition-colors">

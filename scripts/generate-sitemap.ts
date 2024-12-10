@@ -1,8 +1,8 @@
-const { create } = require('xmlbuilder2');
-const fs = require('fs');
-const path = require('path');
-const { locationData } = require('../lib/locations-data');
-const { reviews, brands } = require('../lib/reviews-data');
+import { create } from 'xmlbuilder2';
+import fs from 'fs';
+import path from 'path';
+import { locationData } from '../lib/locations-data';
+import { reviews, brands } from '../lib/reviews-data';
 
 const DOMAIN = 'https://pouchvolt.com';
 

@@ -51,7 +51,7 @@ const routes = [
       },
       {
         title: "United Kingdom",
-        href: "/where-to-buy-nicotine-pouches/united_kingdom",
+        href: "/where-to-buy-nicotine-pouches/united-kingdom",
         description: "Find nicotine pouch retailers in the UK"
       },
       {

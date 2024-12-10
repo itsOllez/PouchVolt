@@ -223,7 +223,7 @@ If you experience any of these symptoms, stop use and consult a healthcare provi
       publishedTime: "2024-01-17T10:00:00Z",
       modifiedTime: "2024-01-17T10:00:00Z",
       author: {
-        name: "Dr. Sarah Johnson",
+        name: "PouchVolt",
         url: "/authors/sarah-johnson",
         image: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&h=400&fit=crop"
       },

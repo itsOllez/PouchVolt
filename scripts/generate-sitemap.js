@@ -4,7 +4,7 @@ const path = require('path');
 const { locationData } = require('../lib/locations-data');
 const { reviews, brands } = require('../lib/reviews-data');
 
-const DOMAIN = 'https://your-domain.com';
+const DOMAIN = 'https://pouchvolt.com';
 
 function generateSitemap() {
   const doc = create({ version: '1.0', encoding: 'UTF-8' })

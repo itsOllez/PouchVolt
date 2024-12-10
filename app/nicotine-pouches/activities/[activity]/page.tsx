@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   return {
-    title: activity.title,
+    title: activity.title + " | PouchVolt",
     description: activity.description,
     openGraph: {
       title: activity.title,

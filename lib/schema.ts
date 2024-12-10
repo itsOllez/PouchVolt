@@ -1,11 +1,11 @@
 export function generateArticleSchema(article: {
   title: string;
   description: string;
-  publishedTime: string;
-  modifiedTime: string;
+  publishedTime?: string;
+  modifiedTime?: string;
   author: {
-    name: string;
-    url: string;
+    name?: string;
+    url?: string;
   };
   image: string;
   url: string;

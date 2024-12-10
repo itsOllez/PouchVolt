@@ -5,6 +5,7 @@ import { activities } from "@/lib/activities-data";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { AlertTriangle, CheckCircle, XCircle } from "lucide-react";
+import { generateArticleSchema } from "@/lib/schema";
 
 interface Props {
   params: {
@@ -38,7 +39,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       images: [activity.heroImage],
     },
     alternates: {
-      canonical: `https://your-domain.com/nicotine-pouches/activities/${params.activity}`,
+      canonical: `https://pouchvolt.com/nicotine-pouches/activities/${params.activity}`,
     },
   };
 }
@@ -65,12 +66,27 @@ export default function ActivityPage({ params }: Props) {
   const SafetyIcon = safetyIcons[activity.safety];
   const safetyColor = safetyColors[activity.safety];
 
+  const jsonLd = generateArticleSchema({
+    title: activity.title,
+    description: activity.description,
+    image: activity.heroImage,
+    author: {
+
+    },
+    url: `https://pouchvolt.com/activity/${activity.slug}`
+  });
+
   return (
+<>
+    <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
     <article className="container max-w-4xl py-10">
       <div className="relative aspect-[2/1] w-full overflow-hidden rounded-lg mb-8">
         <Image
           src={activity.heroImage}
-          alt={activity.title}
+          alt={activity.title + " Header Image"}
           fill
           className="object-cover"
           priority
@@ -132,5 +148,6 @@ export default function ActivityPage({ params }: Props) {
         </div>
       )}
     </article>
+    </>
   );
 }

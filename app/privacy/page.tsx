@@ -3,6 +3,9 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Privacy Policy - PouchVolt",
   description: "PouchVolt's privacy policy explains how we collect, use, and protect your personal information.",
+  alternates: {
+    canonical: "https://pouchvolt.com/privacy",
+  },
 };
 
 export default function PrivacyPage() {

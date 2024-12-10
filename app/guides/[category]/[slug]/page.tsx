@@ -296,7 +296,7 @@ export default function ArticlePage({ params }: { params: { category: string; sl
     modifiedTime: article.modifiedTime,
     author: article.author,
     image: article.heroImage,
-    url: `https://your-domain.com/guides/${article.category}/${article.slug}`
+    url: `https://pouchvolt.com/guides/${article.category}/${article.slug}`
   });
 
   return (

@@ -65,6 +65,15 @@ export default function Footer() {
           </div>
         </div>
         <Separator className="my-8" />
+        <p className="mt-4 text-sm text-muted-foreground">
+        This website is for informational purposes only and is not intended to provide medical, legal, or professional advice. Readers are responsible for ensuring compliance with the laws and regulations of their country regarding nicotine products. Nicotine pouches are intended for adults of legal age as defined in their jurisdiction.
+The author assumes no responsibility for any actions taken based on the information provided on this site. Consult a healthcare professional before using nicotine products, particularly if you have underlying health conditions, are pregnant or breastfeeding, or are taking medications.
+
+By accessing this site, you acknowledge and agree to these terms.
+
+
+        </p>
+        <Separator className="my-8" />
         <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
           <p className="text-sm text-muted-foreground">
             © {new Date().getFullYear()} PouchVolt. All rights reserved.

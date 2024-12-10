@@ -7,6 +7,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Star } from "lucide-react";
 import { MDXRemote } from "next-mdx-remote/rsc";
+import { generatePageMetadata } from "@/lib/metadata";
 
 interface Props {
   params: {
@@ -27,13 +28,20 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     return {
       title: "Not Found",
       description: "The brand you're looking for doesn't exist.",
+      
     };
   }
 
-  return {
+  return generatePageMetadata({
     title: `${brand.name} Nicotine Pouches Review`,
     description: brand.description,
-  };
+    path: `/reviews/${params.brand}`,
+    openGraph: {
+      type: "article",
+      images: [brand.logo]
+    }
+  })
+
 }
 
 export default function BrandPage({ params }: Props) {
@@ -68,14 +76,14 @@ export default function BrandPage({ params }: Props) {
           <div className="relative h-16 w-16">
             <Image
               src={brand.logo}
-              alt={brand.name}
+              alt={`${brand.name} logo`}
               fill
               className="object-contain"
             />
           </div>
           <div>
             <h1 className="text-4xl font-bold tracking-tight">
-              {brand.name}
+              {brand.name} Nicotine Pouch Review
             </h1>
             <p className="text-lg text-muted-foreground">
               {brand.description}

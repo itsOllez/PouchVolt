@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     type: "website",
   },
   alternates: {
-    canonical: "https://your-domain.com/nicotine-pouches/activities",
+    canonical: "https://pouchvolt.com/nicotine-pouches/activities",
   },
 };
 

@@ -20,7 +20,7 @@ export default function ReviewsPage() {
       name: "PouchVolt",
       logo: {
         "@type": "ImageObject",
-        url: "https://your-domain.com/logo.png"
+        url: "https://pouchvolt.com/logo.png"
       }
     }
   };

@@ -30,8 +30,8 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/guides/health/nicotine-effects" className="text-muted-foreground hover:text-primary">
-                  Health Information
+                <Link href="/reviews" className="text-muted-foreground hover:text-primary">
+                  Nicotine Pouch Reviews
                 </Link>
               </li>
             </ul>

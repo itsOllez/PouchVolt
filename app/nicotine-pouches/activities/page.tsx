@@ -19,6 +19,14 @@ export const metadata: Metadata = {
   },
 };
 
+function toTitleCase(str: string): string {
+  return str
+    .toLowerCase()
+    .split(' ')
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(' ');
+}
+
 const safetyIcons = {
   OK: CheckCircle,
   Caution: AlertTriangle,
@@ -67,7 +75,7 @@ export default function ActivitiesPage() {
                 </div>
                 <CardHeader>
                   <CardTitle className="flex items-center justify-between">
-                    <span className="line-clamp-1">{activity.title}</span>
+                    <span className="line-clamp-1">{toTitleCase(activity.slug)}</span>
                     <SafetyIcon className={`h-5 w-5 ${safetyColor}`} />
                   </CardTitle>
                 </CardHeader>

@@ -15,7 +15,7 @@ export default function AboutPage() {
       
       <div className="prose dark:prose-invert max-w-none mb-12">
         <p className="text-lg text-muted-foreground">
-          PouchVolt is your trusted source for comprehensive, accurate information about nicotine pouches. 
+          PouchVolt is your trusted source for comprehensive information about nicotine pouches. 
           Our mission is to educate users about responsible usage while providing detailed reviews and availability information.
         </p>
       </div>
@@ -67,19 +67,20 @@ export default function AboutPage() {
       <div className="prose dark:prose-invert max-w-none">
         <h2>Our Expertise</h2>
         <p>
-          Our team consists of experienced researchers and writers who thoroughly investigate every aspect of nicotine pouches. 
+          We are a small team of independent researchers and writers who investigate every aspect of nicotine pouches to give you the best information. 
           We maintain relationships with manufacturers and retailers to ensure our information is current and accurate.
         </p>
 
         <h2>Editorial Standards</h2>
         <p>
-          All content on PouchVolt undergoes rigorous fact-checking and regular updates. We strive to provide:
+          All content on PouchVolt undergoes regular updates. We strive to provide:
         </p>
         <ul>
           <li>Accurate, well-researched information</li>
           <li>Unbiased product reviews</li>
           <li>Current regulatory information</li>
           <li>Responsible usage guidelines</li>
+          <li>A personal touch!</li>
         </ul>
 
         <h2>Contact Us</h2>
@@ -88,7 +89,6 @@ export default function AboutPage() {
           <br />
           Email: contact@pouchvolt.com
           <br />
-          Address: 123 Main Street, Suite 100, City, Country
         </p>
       </div>
     </div>

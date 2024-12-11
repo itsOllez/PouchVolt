@@ -5,7 +5,7 @@ export const brands: Record<string, Brand> = {
     slug: "zyn",
     name: "ZYN",
     description: "Swedish Match's popular nicotine pouch brand, known for quality and variety.",
-    logo: "https://www.alternix.com/cdn/shop/collections/ZYNv01.jpg?v=1700045872",
+    logo: "/brand-logo/zyn-logo.png",
     website: "https://www.zyn.com",
     foundedYear: 2016,
     headquarters: "Stockholm, Sweden",
@@ -126,7 +126,7 @@ ZYN has revolutionized the nicotine consumption landscape with its innovative, t
     slug: "velo",
     name: "VELO",
     description: "British American Tobacco's modern nicotine pouch brand.",
-    logo: "https://example.com/velo-logo.png",
+    logo: "/brand-logo/velo-logo.webp",
     website: "https://www.velo.com",
     foundedYear: 2019,
     headquarters: "London, UK",
@@ -143,7 +143,177 @@ Launched in 2019 by British American Tobacco...
 
 VELO has introduced several innovations...
     `
-  }
+  },
+    nordic_spirit: {
+        slug: "nordic-spirit",
+        name: "Nordic Spirit",
+        description: "Nordic Spirit is a Swedish brand of tobacco-free nicotine pouches, designed to provide a smoke-free alternative for nicotine users. The brand offers a variety of flavors and strengths, catering to different consumer preferences.",
+        logo: "/brand-logo/nordic-spirit.png",
+        website: "https://nordicspirit.com/",
+        foundedYear: 2018,
+        headquarters: "Stockholm, Sweden",
+        content: ""
+    },
+    on: {
+        slug: "on",
+        name: "On!",
+        description: "On! is a tobacco leaf-free nicotine pouch designed to offer an alternative to traditional tobacco products.",
+        logo: "/brand-logo/on-logo.webp",
+        website: "https://www.onnicotine.com/",
+        foundedYear: 2020,
+        headquarters: "Richmond, Virginia, USA",
+        content: ""
+    },
+    loop: {
+        slug: "loop",
+        name: "LOOP",
+        description: "LOOP offers tobacco-free nicotine pouches in a variety of flavors, utilizing Instant Rush technology for fast nicotine release.",
+        logo: "/brand-logo/loop-logo.png",
+        website: "https://loopnicotinepouches.com/",
+        foundedYear: 2019,
+        headquarters: "Stockholm, Sweden",
+        content: ""
+    },
+    helwit: {
+        slug: "helwit",
+        name: "Helwit",
+        description: "Helwit nicotine pouches are a tobacco-free and smoke-free alternative to traditional smoking and vaping, focusing on sustainability and offering a variety of flavors.",
+        logo: "/brand-logo/helwit-logo.png",
+        website: "https://helwit.co.uk/",
+        foundedYear: 2021,
+        headquarters: "Växjö, Sweden",
+        content: ""
+    },
+    xqs: {
+        slug: "xqs",
+        name: "XQS",
+        description: "XQS is a Swedish brand known for its tobacco-free nicotine pouches, offering a variety of unique flavors and strengths. It was created by two snus users aiming to quit traditional tobacco products.",
+        logo: "/brand-logo/xqs-logo.webp",
+        website: "https://xqsnicotinepouches.com",
+        foundedYear: 2005,
+        headquarters: "Dalarna, Sweden",
+        content: ""
+    },
+    skruf: {
+        slug: "skruf",
+        name: "Skruf",
+        description: "Skruf is a nicotine brand known for its tobacco-free nicotine pouches, offering a variety of flavors and strengths. Founded in 2002, it has gained popularity across Scandinavia, especially with its Skruf Super White product line.",
+        logo: "/brand-logo/skruf-logo.png",
+        website: "https://skruf.se",
+        foundedYear: 2002,
+        headquarters: "Sävsjö, Småland, Sweden",
+        content: ""
+    },
+    white_fox: {
+        slug: "white-fox",
+        name: "White Fox",
+        description: "White Fox offers a range of tobacco-free nicotine pouches with various mint flavors and strengths, known for their high nicotine content and innovative design.",
+        logo: "/brand-logo/white-fox.webp",
+        website: "https://whitefox.me/",
+        foundedYear: 2019,
+        headquarters: "Enköping, Sweden",
+        content: ""
+    },
+    avant: {
+        slug: "avant",
+        name: "Avant",
+        description: "Avant offers a range of tobacco-free nicotine products, including nicotine pouches, manufactured in Sweden by Kurbits Snus. The brand features various flavors and strengths.",
+        logo: "/brand-logo/avant-logo.webp",
+        website: "https://kurbitssnus.com/",
+        foundedYear: 2023,
+        headquarters: "Sweden",
+        content: ""
+    },
+    baow: {
+        slug: "baow",
+        name: "BAOW",
+        description: "BAOW is a brand of nicotine pouches established in 2024 by Yoik in Sweden. The brand offers a range of extra strong nicotine pouches with flavors such as chili lime and gin tonic.",
+        logo: "/brand-logo/baow-logo.webp",
+        website: "/",
+        foundedYear: 2024,
+        headquarters: "Sweden",
+        content: ""
+    },
+    elf_bar_tacja: {
+        slug: "elf-bar-tacja",
+        name: "Elf Bar Tacja",
+        description: "Elf Bar Tacja, new product from the famous vape brand 'Elf Bar' offers a range of tobacco-free nicotine pouches available in various flavors and strengths, known for their convenience and discreet use.",
+        logo: "/brand-logo/elf-bar-tacja.webp",
+        website: "https://www.elfbar.com",
+        foundedYear: 2023,
+        headquarters: "China",
+        content: ""
+    },
+    fumi: {
+        slug: "fumi",
+        name: "Fumi",
+        description: "Fumi offers premium, tobacco-free nicotine pouches with unique salty flavors and varying strengths, crafted with high-quality materials. The brand is known for its innovative approach to flavor and quality control.",
+        logo: "/brand-logo/fumi-logo.png",
+        website: "https://fumipods.com/",
+        foundedYear: 2021,
+        headquarters: "Ödeshög, Sweden",
+        content: ""
+    },
+    its: {
+        slug: "its",
+        name: "It's",
+        description: "It's offers a range of tobacco-free nicotine pouch products.",
+        logo: "/brand-logo/its-logo.webp",
+        website: "/",
+        foundedYear: 2000,
+        headquarters: "Unknown",
+        content: ""
+    },
+    klint: {
+        slug: "klint",
+        name: "Klint",
+        description: "Klint Nicotine Pouches are manufactured by the Swedish company Habit Factory, offering a variety of flavors and strengths in a tobacco-free format.",
+        logo: "/brand-logo/klint-logo.png",
+        website: "https://klint-allwhite.com/",
+        foundedYear: 2018,
+        headquarters: "Stockholm, Sweden",
+        content: ""
+    },
+    neafs: {
+        slug: "neafs",
+        name: "NEAFS",
+        description: "NEAFS is an innovative brand providing tobacco-free alternatives to cigarettes, primarily known for their heat-not-burn products and nicotine pouches. They focus on offering a variety of flavors and a safer experience compared to traditional tobacco products.",
+        logo: "/brand-logo/neafs-logo.png",
+        website: "https://neafs.com/",
+        foundedYear: 2015,
+        headquarters: "London, UK",
+        content: ""
+    },
+    siberia: {
+        slug: "siberia",
+        name: "Siberia",
+        description: "Siberia is known for its high nicotine strength and unique flavors, particularly mint. It offers a range of nicotine pouches that are popular among experienced users.",
+        logo: "/brand-logo/siberia-logo.webp",
+        website: "https://swedishsmokeless.com/",
+        foundedYear: 2004,
+        headquarters: "Enköping, Sweden",
+        content: ""
+    },
+    vid: {
+        slug: "vid",
+        name: "VID",
+        description: "VID is a brand of nicotine pouches produced by Kurbits Snus, offering a variety of flavors and strengths.",
+        logo: "/brand-logo/vid-logo.webp",
+        website: "https://kurbitssnus.com/",
+        foundedYear: 2020,
+        headquarters: "Sweden",
+        content: ""
+    },
+    ubbs: {
+        slug: "ubbs",
+        name: "ÜBBS",
+        description: "ÜBBS nicotine pouches are a tobacco-free alternative available in a range of flavours and strengths, including 6mg, 11mg, and 14mg. They are designed for a quick and easy nicotine hit and are manufactured to pharmaceutical standards.",
+        logo: "/brand-logo/ubbs-logo.webp",
+        website: "https://ubbspouches.com/",
+        foundedYear: 2022,
+        headquarters: "Unknown",
+        content: ""
+    }
 };
 
 export const reviews: Record<string, Review> = {

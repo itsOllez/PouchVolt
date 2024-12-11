@@ -16,43 +16,41 @@ interface Props {
 }
 
 export async function generateStaticParams() {
-  return Object.keys(brands).map((brand) => ({
-    brand,
+  return Object.values(brands).map((brand) => ({
+    brand: brand.slug,
   }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const brand = brands[params.brand];
+  const brand = Object.values(brands).find(b => b.slug === params.brand);
 
   if (!brand) {
     return {
       title: "Not Found",
       description: "The brand you're looking for doesn't exist.",
-      
     };
   }
 
   return generatePageMetadata({
     title: `${brand.name} Nicotine Pouches Review`,
     description: brand.description,
-    path: `/reviews/${params.brand}`,
+    path: `/reviews/${brand.slug}`,
     openGraph: {
       type: "article",
       images: [brand.logo]
     }
   })
-
 }
 
 export default function BrandPage({ params }: Props) {
-  const brand = brands[params.brand];
+  const brand = Object.values(brands).find(b => b.slug === params.brand);
 
   if (!brand) {
     notFound();
   }
 
   const brandReviews = Object.values(reviews).filter(
-    (review) => review.brand === params.brand
+    (review) => review.brand === brand.slug
   );
 
   const jsonLd = {
@@ -73,7 +71,7 @@ export default function BrandPage({ params }: Props) {
 
       <div className="container py-8">
         <div className="flex items-center gap-4 mb-8">
-          <div className="relative h-16 w-16">
+          <div className="relative h-64 w-64">
             <Image
               src={brand.logo}
               alt={`${brand.name} logo`}
@@ -102,7 +100,7 @@ export default function BrandPage({ params }: Props) {
           {brandReviews.map((review) => (
             <Link
               key={review.slug}
-              href={`/reviews/${params.brand}/${review.slug}`}
+              href={`/reviews/${brand.slug}/${review.slug}`}
             >
               <Card className="hover:bg-muted/50 transition-colors">
                 <div className="relative h-48 w-full">

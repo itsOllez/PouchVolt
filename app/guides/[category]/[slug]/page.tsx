@@ -72,62 +72,134 @@ Always follow these important safety guidelines when using nicotine pouches.
       publishedTime: "2024-01-15T10:00:00Z",
       modifiedTime: "2024-01-15T10:00:00Z",
       author: {
-        name: "John Smith",
-        url: "/authors/john-smith",
-        image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop"
+        name: "PouchVolt",
+        url: "/",
+        image: "/logo.png"
       },
-      heroImage: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=1200&h=630&fit=crop",
+      heroImage: "https://images.unsplash.com/photo-1682775399553-b2e250dc35f8?q=80&w=3472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     }
   },
   "reviews": {
     "top-brands-2024": {
-      slug: "top-brands-2024",
-      category: "reviews",
-      title: "Top Nicotine Pouch Brands in 2024",
-      description: "Comprehensive review of the best nicotine pouch brands available in 2024.",
-      content: `
-# Top Nicotine Pouch Brands in 2024
-
-Our comprehensive review of the best nicotine pouch brands available this year.
-
-## Top Picks
-
-<ProductComparison products={[
-  {
-    name: "Premium Brand A",
-    strength: "6mg",
-    flavors: ["Mint", "Berry", "Citrus"],
-    price: "$6.99",
-    rating: 5,
-    pros: ["Premium quality", "Great taste"],
-    cons: ["Premium price"]
-  },
-  {
-    name: "Value Brand B",
-    strength: "8mg",
-    flavors: ["Mint", "Original"],
-    price: "$4.99",
-    rating: 4,
-    pros: ["Good value", "Strong effect"],
-    cons: ["Limited flavors"]
-  }
-]} />
-
-<CTABox 
-  title="Compare Prices"
-  description="Find the best deals on your favorite brands"
-  buttonText="Compare Now"
-  buttonLink="/compare-prices"
-/>
-      `,
+      "slug": "top-brands-2024",
+      "category": "reviews",
+      "title": "Top Nicotine Pouch Brands in 2024",
+      "description": "Comprehensive review of the best nicotine pouch brands available in 2024.",
+      "content": `# Top Nicotine Pouch Brands in 2024
+    
+    In recent years, nicotine pouches have become an increasingly popular alternative to traditional tobacco products. Our comprehensive review examines the top brands making waves in 2024, considering factors like flavor variety, nicotine strength, price, and overall user experience.
+    
+    ## Top Picks
+    
+    <ProductComparison products={[
+      {
+        name: "ZYN",
+        strength: "3mg, 6mg, 9mg",
+        flavors: ["Cool Mint", "Spearmint", "Wintergreen", "Citrus", "Cinnamon"],
+        price: "$5.49",
+        rating: 4.8,
+        pros: [
+          "Extensive flavor range",
+          "Consistent quality",
+          "Smooth nicotine delivery",
+          "Discreet packaging"
+        ],
+        cons: [
+          "Slightly higher price point",
+          "Some flavors can be intense"
+        ]
+      },
+      {
+        name: "On! Nicotine Pouches",
+        strength: "2mg, 4mg, 8mg",
+        flavors: ["Wintergreen", "Cinnamon", "Mint", "Berry", "Coffee"],
+        price: "$4.79",
+        rating: 4.5,
+        pros: [
+          "Compact size",
+          "Wide range of strengths",
+          "Great for beginners and experienced users",
+          "Affordable pricing"
+        ],
+        cons: [
+          "Slightly less flavor intensity",
+          "Limited international availability"
+        ]
+      },
+      {
+        name: "VELO Nicotine Pouches",
+        strength: "2mg, 4mg, 7mg",
+        flavors: ["Ice Mint", "Wintergreen", "Citrus", "Dragon Fruit"],
+        price: "$5.99",
+        rating: 4.6,
+        pros: [
+          "Innovative flavor profiles",
+          "Smooth and consistent nicotine release",
+          "Modern packaging",
+          "Multiple strength options"
+        ],
+        cons: [
+          "Premium pricing",
+          "Some flavors may be hit or miss"
+        ]
+      },
+      {
+        name: "Rogue Nicotine Pouches",
+        strength: "3mg, 6mg, 9mg",
+        flavors: ["Wintergreen", "Mint", "Mango", "Honey Lemon"],
+        price: "$5.29",
+        rating: 4.4,
+        pros: [
+          "Bold flavor combinations",
+          "Strong nicotine options",
+          "Competitive pricing",
+          "Clean ingredients"
+        ],
+        cons: [
+          "Limited flavor selection",
+          "Might be too strong for some users"
+        ]
+      }
+    ]} />
+    
+    ## What to Consider When Choosing Nicotine Pouches
+    
+    ### Nicotine Strength
+    Nicotine pouches come in various strengths, typically ranging from 2mg to 9mg. Beginners should start with lower strengths and gradually increase as needed.
+    
+    ### Flavor Variety
+    The market offers an impressive range of flavors, from classic mint to more exotic options like dragon fruit and mango. Consider your taste preferences and willingness to experiment.
+    
+    ### Price and Value
+    Prices range from $4.79 to $5.99 per can. While premium brands might cost more, they often provide better quality and more consistent experience.
+    
+    ### Discretion and Convenience
+    Modern nicotine pouches are designed to be small, discreet, and easy to use, making them a convenient alternative to traditional nicotine products.
+    
+    <CTABox 
+      title="Compare Prices and Find Your Perfect Pouch" 
+      description="Use our comparison tool to find the best deals on top nicotine pouch brands" 
+      buttonText="Compare Prices Now" 
+      buttonLink="/compare-prices" 
+    />
+    
+    ## Safety and Usage Tips
+    - Always follow recommended usage guidelines
+    - Start with lower nicotine strengths
+    - Consult with a healthcare professional if you have concerns
+    - Store pouches in a cool, dry place
+    - Keep out of reach of children and pets
+    
+    ## Conclusion
+    The nicotine pouch market continues to evolve, offering smokers and nicotine users more choices than ever. Whether you prioritize flavor, strength, or price, there's a brand to suit your needs.`,
       publishedTime: "2024-01-16T10:00:00Z",
       modifiedTime: "2024-01-16T10:00:00Z",
       author: {
-        name: "Jane Doe",
+        name: "PouchVolt",
         url: "/authors/jane-doe",
-        image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop"
+        image: "/logo.png"
       },
-      heroImage: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=1200&h=630&fit=crop",
+      heroImage: "https://images.unsplash.com/photo-1682777119396-382cff6b174b?q=80&w=3472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dhttps://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=1200&h=630&fit=crop",
     }
   },
   "health": {
@@ -150,15 +222,6 @@ Nicotine has several immediate effects on your body when consumed:
 - Enhanced focus and alertness
 - Mild euphoria
 - Reduced appetite
-
-## Long-term Considerations
-
-<CTABox 
-  title="Speak with a Healthcare Provider"
-  description="Get professional medical advice about nicotine use"
-  buttonText="Find a Provider"
-  buttonLink="/healthcare-directory"
-/>
 
 ## Health Comparisons
 
@@ -224,8 +287,8 @@ If you experience any of these symptoms, stop use and consult a healthcare provi
       modifiedTime: "2024-01-17T10:00:00Z",
       author: {
         name: "PouchVolt",
-        url: "/authors/sarah-johnson",
-        image: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&h=400&fit=crop"
+        url: "/",
+        image: "/logo.png"
       },
       heroImage: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1200&h=630&fit=crop",
     }

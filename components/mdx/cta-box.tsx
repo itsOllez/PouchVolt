@@ -12,9 +12,9 @@ export function CTABox({ title, description, buttonText, buttonLink }: CTABoxPro
     <div className="bg-primary/10 p-6 rounded-lg">
       <h3 className="text-xl font-semibold mb-2">{title}</h3>
       <p className="mb-4">{description}</p>
-      <Button asChild>
+      <div className="text-inherit" asChild>
         <a href={buttonLink}>{buttonText}</a>
-      </Button>
+      </div>
     </div>
   )
 }

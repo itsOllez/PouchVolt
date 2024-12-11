@@ -19,12 +19,12 @@ const guides = {
         description: "Everything you need to know about nicotine pouches as a beginner.",
         category: "beginners",
         slug: "getting-started",
-        publishedAt: "2024-01-15T10:00:00Z",
+        publishedAt: "2024-11-15T10:00:00Z",
         author: {
-          name: "John Smith",
-          image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop"
+          name: "PouchVolt",
+          image: "/logo.png"
         },
-        heroImage: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1200&h=630&fit=crop"
+        heroImage: "https://images.unsplash.com/photo-1682775399553-b2e250dc35f8?q=80&w=3472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       }
     }
   },
@@ -36,12 +36,12 @@ const guides = {
         description: "Comprehensive review of the best nicotine pouch brands available this year.",
         category: "reviews",
         slug: "top-brands-2024",
-        publishedAt: "2024-01-16T10:00:00Z",
+        publishedAt: "2024-12-02T10:00:00Z",
         author: {
-          name: "Jane Doe",
-          image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop"
+          name: "PouchVolt",
+          image: "/logo.png"
         },
-        heroImage: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=1200&h=630&fit=crop"
+        heroImage: "https://images.unsplash.com/photo-1682777119396-382cff6b174b?q=80&w=3472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dhttps://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=1200&h=630&fit=crop"
       }
     }
   },
@@ -53,10 +53,10 @@ const guides = {
         description: "A detailed exploration of how nicotine affects your body and what you should know.",
         category: "health",
         slug: "nicotine-effects",
-        publishedAt: "2024-01-17T10:00:00Z",
+        publishedAt: "2024-12-08T10:00:00Z",
         author: {
-          name: "Dr. Sarah Johnson",
-          image: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&h=400&fit=crop"
+          name: "PouchVolt",
+          image: "/logo.png"
         },
         heroImage: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1200&h=630&fit=crop"
       }

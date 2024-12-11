@@ -59,7 +59,7 @@ export default function ReviewsPage() {
                         className="object-contain"
                       />
                     </div>
-                    {brand.name}
+                    {brand.name} Review
                   </CardTitle>
                 </CardHeader>
                 <CardContent>

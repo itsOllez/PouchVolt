@@ -114,11 +114,6 @@ const routes = [
     title: "About",
     icon: Info,
     href: "/about"
-  },
-  {
-    title: "FAQ",
-    icon: HelpCircle,
-    href: "/faq"
   }
 ];
 

@@ -151,7 +151,10 @@ export default function CountryPage({ params }: Props) {
               <h2 className="text-2xl font-semibold mb-4">Available Brands</h2>
               <div className="flex flex-wrap gap-2">
                 {countryData.brands.map((brand) => {
-                  const brandSlug = brand.toLowerCase().replace(/\s+/g, '-');
+                 const brandSlug = brand
+                 .toLowerCase()
+                 .replace(/\s+/g, '-')       // Replace spaces with hyphens
+                 .replace(/[^a-z0-9-]/g, ''); // Remove all characters except lowercase letters, numbers, and hyphens
                   return (
                     <Link key={brand} href={`/reviews/${brandSlug}`}>
                       <Badge 

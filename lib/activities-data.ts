@@ -72,5 +72,29 @@ Runners should prioritize their health and safety, focusing on proven methods of
     safety: "OK",
     heroImage: "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d",
     genericWarning: "Using nicotine pouches while driving is generally safe, but always ensure you're alert and focused on the road. If you're new to nicotine pouches, test your tolerance in a stationary setting first."
-  }
+  },
+  flying: {
+    slug: "flying",
+    title: "Can You Use Nicotine Pouches On A Plane?",
+    description: "Guidelines and safety information about using nicotine pouches while flying on a plane.",
+    safety: "OK",
+    heroImage: "https://images.unsplash.com/photo-1587893904903-52bdb6ad0c0c?q=80&w=2880&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    genericWarning: "Using nicotine pouches on a plane is generally acceptable as they don't produce smoke or vapor. However, always check airline policies and follow crew instructions. Be mindful of your nicotine tolerance, especially during extended flights."
+  },
+  fasting: {
+    slug: "fasting",
+    title: "Can You Use Nicotine Pouches While Fasting?",
+    description: "Guidance on whether using nicotine pouches will interrupt your fast.",
+    safety: "OK",
+    heroImage: "https://images.unsplash.com/photo-1523071454898-f9085ac34f1d?q=80&w=3271&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    genericWarning: "Whether nicotine pouches can be used while fasting depends on the type of fasting you are observing although for most diet-based fasting, nicotine pouches will not interupt although consider how nicotine affects your fasting goals. For religious fasts, consult with a knowledgeable authority as guidelines may vary."
+},
+braces: {
+  slug: "braces",
+  title: "Can You Use Nicotine Pouches With Braces?",
+  description: "Information on using nicotine pouches safely while wearing braces.",
+  safety: "OK",
+  heroImage: "https://images.unsplash.com/photo-1620775997427-9175928218d2?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  genericWarning: "Nicotine pouches are unlikely to cause complications with braces. Ensure proper oral hygiene to avoid complications and consult your orthodontist if you have concerns about your braces or gum health. You should only be used nicotine pouches if you're over the legal age in your country"
+}
 };

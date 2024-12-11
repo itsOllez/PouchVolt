@@ -8,6 +8,8 @@ import { Badge } from "@/components/ui/badge";
 import { Star } from "lucide-react";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import { generatePageMetadata } from "@/lib/metadata";
+import { ProsCons } from "@/components/reviews/pros-cons";
+import { Separator } from "@/components/ui/separator";
 
 interface Props {
   params: {
@@ -70,7 +72,7 @@ export default function BrandPage({ params }: Props) {
       />
 
       <div className="container py-8">
-        <div className="flex items-center gap-4 mb-8">
+        <div className="flex items-center gap-4">
           <div className="relative h-64 w-64">
             <Image
               src={brand.logo}
@@ -88,6 +90,9 @@ export default function BrandPage({ params }: Props) {
             </p>
           </div>
         </div>
+
+
+        <ProsCons pros={brand.pros} cons={brand.cons} />
 
         {brand.content && (
           <div className="prose max-w-none mb-8">

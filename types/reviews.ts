@@ -50,4 +50,6 @@ export interface Brand {
   foundedYear: number;
   headquarters: string;
   content?: string;
+  pros?: string[];
+  cons?: string[];
 }

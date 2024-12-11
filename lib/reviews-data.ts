@@ -1,4 +1,5 @@
 import { Review, Brand } from '@/types/reviews';
+import { ProsCons } from '@/components/reviews/pros-cons';
 
 export const brands: Record<string, Brand> = {
   zyn: {
@@ -129,19 +130,37 @@ ZYN has revolutionized the nicotine consumption landscape with its innovative, t
     logo: "/brand-logo/velo-logo.webp",
     website: "https://www.velo.com",
     foundedYear: 2019,
+    pros: ["Wide variety of flavors and nicotine strengths", "Tobacco-free composition with fewer toxins", "Discreet design suitable for any environment", "Long-lasting flavor and effect"],
+    cons: ["Packaging quality could be improved", "Some flavors may feel less intense than competitors", "Limited availability of ultra-high-strength options", "Rebranding confusion with flavor names in some regions"],
     headquarters: "London, UK",
     content: `
-# VELO Nicotine Pouches
-
-VELO represents the modern approach to nicotine pouches...
+VELO nicotine pouches have emerged as a leading product in the modern oral nicotine market. Developed by British American Tobacco (BAT), VELO offers a tobacco-free alternative to traditional nicotine products such as cigarettes, snus, and vapes. With a wide range of flavors, strengths, and innovative designs, VELO has gained significant popularity among users seeking a discreet and versatile nicotine experience.
 
 ## History
 
-Launched in 2019 by British American Tobacco...
+VELO was officially launched in 2019 by British American Tobacco as part of its efforts to expand the modern oral nicotine category. The brand evolved from EPOK, a pioneering all-white snus product that transitioned into tobacco-free pouches. Initially marketed under the names LYFT in Europe and VELO in the U.S., BAT later unified the brand globally under the VELO name to create a consistent identity. The product has since grown into one of the top-selling nicotine pouch brands worldwide, with strong demand in markets such as the U.S., Europe, and emerging regions like Pakistan.
 
 ## Innovation
 
-VELO has introduced several innovations...
+VELO distinguishes itself through several innovations:
+
+- **Tobacco-Free Composition**: Unlike traditional snus, VELO pouches are entirely tobacco-free, using synthetic nicotine derived from tobacco plants. This eliminates many of the toxins associated with tobacco products.
+- **Variety of Flavors and Strengths**: VELO offers an extensive range of flavors, including mint (spearmint, peppermint), fruit (dragon fruit, black cherry), coffee, and cinnamon. Nicotine strengths range from mild (2 mg) to ultra-strong (up to 20 mg), catering to both novice and experienced users.
+- **Discreet Design**: The pouches are small, lightweight, and come in Mini or Slim formats for a comfortable fit under the lip. They are stain-free, spit-free, and designed for use anytime and anywhere.
+- **Dot Strength System**: VELO employs a user-friendly dot system on its packaging to indicate nicotine strength levels, making it easier for users to select their preferred intensity.
+
+## User Experience
+
+VELO nicotine pouches are praised for their convenience and versatility. Here are some highlights based on user reviews:
+
+- **Flavor Quality**: While not as intense as some competitors like ZYN, VELO's flavors are described as subtle yet satisfying. They provide a long-lasting essence that appeals to a wide audience.
+- **Nicotine Delivery**: The pouches offer effective nicotine absorption with effects lasting between 20 to 45 minutes depending on the format. Users appreciate the range of strengths available for different preferences.
+- **Packaging**: The plastic cans include a two-part lid for storing used pouches. Although functional, some users find the packaging slightly flimsy compared to competitors.
+- **Discretion**: The pouches are unobtrusive and ideal for situations where smoking or vaping is not permitted.
+
+## Conclusion
+
+VELO nicotine pouches are a standout choice for those seeking a modern alternative to traditional nicotine products. With their tobacco-free composition, diverse flavor options, and varying strengths, they cater to a broad spectrum of users. While there is room for improvement in packaging design and flavor intensity, VELO remains one of the most popular brands in the market due to its innovation and user-centric approach.
     `
   },
     nordic_spirit: {

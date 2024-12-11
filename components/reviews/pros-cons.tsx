@@ -10,7 +10,7 @@ export function ProsCons({ pros, cons }: ProsConsProps) {
   if (!pros && !cons) return null;
 
   return (
-    <div className="grid gap-4 md:grid-cols-2">
+    <div className="grid gap-4 md:grid-cols-2 mb-8">
       {pros && (
         <Card className="border-green-200">
           <CardHeader>

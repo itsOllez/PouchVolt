@@ -306,7 +306,6 @@ export async function generateStaticParams() {
 
 
 export async function generateMetadata({ params }: { params: { category: string; slug: string } }): Promise<Metadata> {
-  
   const article = articles[params.category]?.[params.slug];
   
   if (!article) {
@@ -315,12 +314,16 @@ export async function generateMetadata({ params }: { params: { category: string;
       description: 'The page you are looking for does not exist.'
     };
   }
-  
+
+  const canonicalUrl = `https://pouchvolt.com/guides/${article.category}/${article.slug}`;
 
   return {
     title: article.title,
     description: article.description,
     authors: [{ name: article.author.name, url: article.author.url }],
+    alternates: {
+      canonical: canonicalUrl
+    },
     openGraph: {
       title: article.title,
       description: article.description,

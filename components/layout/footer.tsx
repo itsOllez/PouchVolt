@@ -34,6 +34,16 @@ export default function Footer() {
                   Nicotine Pouch Reviews
                 </Link>
               </li>
+              <li>
+                <Link href="/nicotine-pouches/activities" className="text-muted-foreground hover:text-primary">
+                  Nicotine Pouch Activity Guides
+                </Link>
+              </li>
+              <li>
+                <Link href="/where-to-buy-nicotine-pouches" className="text-muted-foreground hover:text-primary">
+                  Where To Buy Nicotine Pouches?
+                </Link>
+              </li>
             </ul>
           </div>
           <div>

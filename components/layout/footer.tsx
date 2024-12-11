@@ -25,11 +25,6 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/guides/beginners/getting-started" className="text-muted-foreground hover:text-primary">
-                  Beginner's Guide
-                </Link>
-              </li>
-              <li>
                 <Link href="/reviews" className="text-muted-foreground hover:text-primary">
                   Nicotine Pouch Reviews
                 </Link>

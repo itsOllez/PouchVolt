@@ -277,7 +277,78 @@ VELO nicotine pouches are a standout choice for those seeking a modern alternati
         foundedYear: 2022,
         headquarters: "Unknown",
         content: ""
-    }
+    },
+    rogue: {
+      slug: "rogue",
+      name: "Rogue",
+      description: "Known for its tobacco-free nicotine pouches that are spit-free and stain-free, offering various nicotine levels.",
+      logo: "/brand-logo/rogue-logo.jpg",
+      website: "https://www.roguenicotine.com",
+      foundedYear: 2018,
+      headquarters: "USA",
+      content: "Rogue offers tobacco-free nicotine pouches with various nicotine levels."
+      },
+      juice_head: {
+      slug: "juice-head",
+      name: "Juice Head",
+      description: "Known for its premium quality and unique, satisfying flavors, Juice Head offers a wide selection of nicotine pouch products.",
+      logo: "/brand-logo/juice-head-logo.webp",
+      website: "https://juicehead.co",
+      foundedYear: 2014,
+      headquarters: "Long Beach, California, USA",
+      content: "Juice Head provides premium quality nicotine products with unique flavors."
+      },
+      fre: {
+      slug: "fre",
+      name: "FRE",
+      description: "Known for its strong and extra strong synthetic nicotine pouches, FRE offers a tobacco-free alternative for adults transitioning from traditional tobacco products.",
+      logo: "/brand-logo/fre-logo.webp",
+      website: "https://frepouch.com",
+      foundedYear: 2020,
+      headquarters: "Louisville, Kentucky, United States",
+      content: "FRE specializes in strong synthetic nicotine pouches as a tobacco-free alternative."
+      },
+      sesh: {
+      slug: "sesh",
+      name: "Sesh",
+      description: "Known for its innovative nicotine products, particularly the Sesh+ nicotine pouches.",
+      logo: "/brand-logo/sesh-logo.png",
+      website: "https://seshproducts.com",
+      foundedYear: 2020,
+      headquarters: "Vancouver, Canada",
+      content: "Sesh offers innovative nicotine products, focusing on Sesh+ nicotine pouches."
+      },
+      lucy: {
+      slug: "lucy",
+      name: "Lucy",
+      description: "Committed to bringing innovative nicotine products to the market, focusing on cleaner formulations of nicotine gum.",
+      logo: "/brand-logo/lucy-logo.jpg",
+      website: "https://lucy.co",
+      foundedYear: 2016,
+      headquarters: "Los Angeles, California, USA",
+      content: "Lucy focuses on innovative nicotine products, particularly cleaner nicotine gum formulations."
+      },
+      zone: {
+      slug: "zone",
+      name: "Zone",
+      description: "Known for its various flavors and nicotine strengths, Zone offers tobacco-free nicotine pouches.",
+      logo: "/brand-logo/zone-logo.webp",
+      website: "https://www.zonepouches.com",
+      foundedYear: 2002,
+      headquarters: "London, England",
+      content: "Zone provides tobacco-free nicotine pouches in various flavors and strengths."
+      },
+      grizzly: {
+      slug: "grizzly",
+      name: "Grizzly",
+      description: "An American brand known for dipping tobacco in its variety of flavors and products although now sells nicotine pouches under the same brand.",
+      logo: "/brand-logo/grizzly-logo.webp",
+      website: "https://www.mygrizzly.com",
+      foundedYear: 2001,
+      headquarters: "Memphis, Tennessee, United States",
+      content: "Grizzly is an American dipping tobacco brand offering various flavors and nicotine products."
+      }
+      
 };
 
 export const reviews: Record<string, Review> = {

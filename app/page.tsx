@@ -2,6 +2,13 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { BookOpen, HelpCircle, ShieldCheck } from "lucide-react";
+import { Metadata } from "next";
+
+
+export const metadata: Metadata = {
+  title: "PouchVolt - Expert Reviews, Guides & Info on Nicotine Pouches",
+  description: "PouchVolt is your go-to resource for everything nicotine pouches. Explore in-depth reviews, buying guides, and tips to find the best pouches for your needs. Stay informed with the latest trends, product comparisons, and helpful insights on smokeless nicotine alternatives.",
+};
 
 export default function Home() {
   return (

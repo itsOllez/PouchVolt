@@ -21,59 +21,6 @@ From 2017 to 2019, Swedish Match invested $115 million to expand their US manufa
 
 ZYN's growth has been remarkable. In the last six years, ZYN's shipments in the US have surged from 1 million to 334 million, representing an impressive 119% annualized growth rate. By the end of 2020, ZYN pouches were available in approximately 100,000 US stores.
 
-In November 2022, Swedish Match was acquired by Philip Morris International, identifying ZYN as one of the strategic brands to achieve their vision of a "smoke-free future".
-
-## Product Range
-
-### Nicotine Strengths
-
-ZYN pouches are available in several nicotine strengths, typically including:
-- 3 mg/pouch
-- 6 mg/pouch
-- 9 mg/pouch (in some markets)
-- 11 mg/pouch (in some markets)
-- 12.5 mg/pouch (in some markets)
-
-### Flavors
-
-ZYN provides a wide array of flavors, including but not limited to:
-- Cool Mint
-- Wintergreen
-- Citrus
-- Espressino
-- Icy Mint
-- Chili Guava
-- Icy Blackcurrant
-
-Each flavor is carefully crafted to provide a pleasant and long-lasting taste experience.
-
-## User Experience
-
-ZYN pouches are designed for ease of use and comfort. They are small, lightweight (0.7g each), and fit discreetly under the upper lip. Users typically experience a nicotine effect within the first couple of minutes, with each pouch lasting about 30–60 minutes.
-
-The brand is known for its smooth and consistent nicotine release, providing a satisfying experience without harshness. The flavors are well-balanced, offering an enjoyable taste throughout the duration of use.
-
-## Market Position
-
-ZYN has established itself as a category leader in the nicotine pouch market. As of Q3 2023, ZYN captured an impressive 76% retail market share in the U.S. nicotine pouch segment, measured in dollars. This dominance has led to ZYN often being described as a "category killer" in the industry.
-
-## Safety and Regulation
-
-While ZYN pouches offer a smoke-free and tobacco-free alternative to traditional nicotine products, it's important to note that they still contain nicotine, which is addictive. The long-term effects of nicotine pouch use are still being studied.
-
-ZYN pouches are regulated differently in various countries. In the UK, for example, they are sold as consumer products, while in some other markets they may be subject to tobacco product regulations.
-
-## Conclusion
-ZYN is a leading brand in the nicotine pouch market, created by Swedish Match. Known for their quality and innovative approach, ZYN offers a tobacco-free alternative to traditional nicotine products. These small pouches are designed to be placed between the upper lip and gum, providing a discreet and convenient way to enjoy nicotine without smoke, vapor, or spit.
-
-## History
-
-Founded in 2014, ZYN has quickly become a dominant force in the nicotine pouch industry. The brand was initially launched on a small scale in the US market, starting in Colorado and then expanding to various western US states in 2016. That same year, ZYN also entered the Swedish market.
-
-From 2017 to 2019, Swedish Match invested $115 million to expand their US manufacturing plant in Owensboro, Kentucky, to handle the production of ZYN pouches directly in the US. This expansion was completed in May 2019, significantly boosting production capacity.
-
-ZYN's growth has been remarkable. In the last six years, ZYN's shipments in the US have surged from 1 million to 334 million, representing an impressive 119% annualized growth rate. By the end of 2020, ZYN pouches were available in approximately 100,000 US stores.
-
 In November 2022, Swedish Match was acquired by Philip Morris International, identifying ZYN as one of the strategic brands to achieve their vision of a "smoke-free future."
 
 ## Product Range
@@ -117,8 +64,6 @@ While ZYN pouches offer a smoke-free and tobacco-free alternative to traditional
 ZYN pouches are regulated differently in various countries. In the UK, for example, they are sold as consumer products, while in some other markets they may be subject to tobacco product regulations.
 
 ## Conclusion
-
-ZYN has revolutionized the nicotine consumption landscape with its innovative, tobacco-free pouches. Its rapid growth and dominant market position testify to the brand's quality and appeal to consumers seeking alternatives to traditional tobacco products. As the nicotine pouch market continues to evolve, ZYN remains at the forefront, continually adapting to meet consumer needs and regulatory requirements.
 
 ZYN has revolutionized the nicotine consumption landscape with its innovative, tobacco-free pouches. Its rapid growth and dominant market position testify to the brand's quality and appeal to consumers seeking alternatives to traditional tobacco products. As the nicotine pouch market continues to evolve, ZYN remains at the forefront, continually adapting to meet consumer needs and regulatory requirements.
     `

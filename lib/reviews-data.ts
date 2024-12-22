@@ -415,8 +415,8 @@ Priced competitively at $4.99 per can...
     publishedAt: "2024-01-15T10:00:00Z",
     updatedAt: "2024-01-20T15:30:00Z",
     author: {
-      name: "John Smith",
-      avatar: "https://images.unsplash.com/photo-avatar"
+      name: "PouchVolt",
+      avatar: "/logo.png"
     }
   },
   "velo-freeze": {
@@ -467,8 +467,8 @@ With 11mg/portion, this is one of the stronger options available...
     ],
     publishedAt: "2024-01-18T10:00:00Z",
     author: {
-      name: "Jane Doe",
-      avatar: "https://images.unsplash.com/photo-avatar-2"
+      name: "PouchVolt",
+      avatar: "/logo.png"
     }
   }
 };

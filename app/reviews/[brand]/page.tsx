@@ -101,6 +101,7 @@ export default function BrandPage({ params }: Props) {
         )}
 
         <h2 className="text-2xl font-semibold mb-6">Product Reviews</h2>
+        {brandReviews.length ? 
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {brandReviews.map((review) => (
             <Link
@@ -145,6 +146,7 @@ export default function BrandPage({ params }: Props) {
             </Link>
           ))}
         </div>
+        : <div className="prose max-w-none mb-8">We don't have any individual product reviews for {brand.name} yet!</div>}
       </div>
     </>
   );

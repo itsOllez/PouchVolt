@@ -160,8 +160,43 @@ Give them a try—I’d love to hear what you think!
         logo: "/brand-logo/on-logo.webp",
         website: "https://www.onnicotine.com/",
         foundedYear: 2020,
+        pros: [
+          "Discreet, compact size.",
+          "Great flavor options, especially Wintergreen and Coffee.",
+          "Quick nicotine release.",
+          "Wide range of nicotine strengths to suit different preferences."
+        ],
+        cons: [
+          "Flavor fades quickly.",
+          "Pouches can move around in the mouth.",
+          "Extended use may cause gum irritation.",
+          "Nicotine experience at lower strengths might feel inconsistent."
+        ],
         headquarters: "Richmond, Virginia, USA",
-        content: ""
+        content: `
+        Let me tell you about **On!**, a brand of nicotine pouches that’s been catching attention for its compact size and variety. After giving these a try, I can see why they appeal to some users—though they might not be everyone’s favorite.
+
+Here’s what you’re getting with On! nicotine pouches:  
+- **Flavors:** Mint, Wintergreen, Cinnamon, Coffee, Citrus, and Berry.  
+- **Nicotine Strengths:** Options range from a light 2mg to a stronger 8mg.  
+- **Quantity:** 20 pouches per can.  
+
+## PouchVolt's Experience  
+
+First, the standout feature of On! pouches is their **tiny size**. They’re incredibly discreet—perfect if you want something subtle that doesn’t draw attention. These little pouches are neat and clean, although the pouches have quite a soft textur, which was a pleasant difference compared to some of the more mainstream pouches.  
+
+The **flavors** are quite enjoyable, too. I was particularly impressed with Wintergreen and Coffee—they’ve got a depth and authenticity that I didn’t expect. Berry was another highlight for me; it’s sweet but not overpowering, which I appreciated.  
+
+When it comes to **nicotine delivery**, On! has a fast release that hits quickly. This can be great if you’re looking for a more immediate effect. The variety of strengths is a definite plus—you can choose exactly how intense or light you want the experience to be.  
+
+That said, the **flavor doesn’t stick around as long as I’d hoped**. While the initial taste is great, it fades faster than some other brands I’ve tried. The small size, while a pro for discretion, can also be a bit tricky. The pouches sometimes shift around in your mouth, especially if you’re drinking something.  
+
+A word of caution—after extended use, I did notice a bit of gum irritation. It wasn’t terrible, but it’s something to keep in mind if you’re planning to use them regularly.  
+
+## Final Thoughts  
+
+On! nicotine pouches are a solid option if you’re looking for something small, discreet, and versatile in flavor and strength. They’re especially appealing for those who are new to nicotine pouches or prefer a lighter experience. However, if you’re after longer-lasting flavor or a stronger nicotine punch, you might find other brands better suited to your needs.
+        `
     },
     loop: {
         slug: "loop",
@@ -170,8 +205,45 @@ Give them a try—I’d love to hear what you think!
         logo: "/brand-logo/loop-logo.png",
         website: "https://loopnicotinepouches.com/",
         foundedYear: 2019,
+        pros: [
+          "Unique and bold flavor combinations like Jalapeño Lime and Red Chili Melon",
+          "Quick nicotine release with 'Instant Rush Technology'",
+          "Slim, comfortable, and discreet pouch design",
+          "Eye-catching and branding and packaging",
+          "High-quality manufacturing from a trusted Swedish producer"
+        ],
+        cons: [
+          "Flavor doesn’t last as long as some competitors",
+          "Limited strength options for experienced users",
+          "Availability can be an issue in some regions"
+        ],
         headquarters: "Stockholm, Sweden",
-        content: ""
+        content: `
+        LOOP nicotine pouches have quickly gained traction for their bold flavors and high-quality design. After giving them a try, I can confidently say they bring something fresh to the nicotine pouch market—literally and figuratively.  
+
+## Product Overview  
+
+Here’s what LOOP has to offer:  
+- **Flavors:** Unique combinations like Jalapeño Lime, Red Chili Melon, Salty Ludicris, and Mint Mania.  
+- **Nicotine Strengths:** Options include 9.4mg, 12.5mg, and 15.6mg per pouch.  
+- **Quantity:** Each can holds 22 pouches.  
+
+## The PouchVolt Experience
+
+What makes LOOP stand out is its **flavors**. They’re not afraid to take risks, and it shows. Jalapeño Lime was a wild ride—a tangy citrus hit with a spicy kick that’s oddly satisfying. Red Chili Melon was another favorite, combining sweet melon with just the right amount of heat for a unique balance. If you’re bored of standard mint or berry, LOOP is your answer.  
+
+The **nicotine delivery** is fast and efficient, thanks to their "Instant Rush Technology." You get a quick buzz almost immediately, followed by a steady release that keeps things smooth and controlled. This makes LOOP perfect for anyone looking for a reliable and consistent experience.  
+
+Comfort-wise, the **pouches are slim and discreet**, fitting snugly under the lip. They’re soft and comfortable, so I barely noticed them during use. Plus, the packaging is modern and eye-catching—a small but appreciated touch that makes the product feel premium.  
+
+That said, the **flavor doesn’t last as long as I’d like**, especially for such bold profiles. Also, while their strengths are great for most users, seasoned nicotine pouch fans might find the options a little lacking unless they go for the Hyper Strong variant. Availability could also be better—it’s not as widely distributed as some of the bigger brands.
+
+We're a huge fan of the branding and modern styling of the logo - which is a nice extra!
+
+## Final Thoughts  
+
+LOOP nicotine pouches are an exciting choice for anyone looking to shake things up. With innovative flavors, quick nicotine delivery, and sleek design, they’ve carved out a unique space in the market. While the flavor duration and strength options might not satisfy everyone, the overall quality and boldness make LOOP worth trying—especially if you’re a fan of spicy or unconventional flavors. 
+        `
     },
     helwit: {
         slug: "helwit",

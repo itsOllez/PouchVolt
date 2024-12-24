@@ -79,7 +79,7 @@ export const locationData: LocationData = {
       status: true,
       details: "Widely available through specialized tobacco shops, vape stores, and some convenience stores."
     },
-    brands: ["VELO", "ZYN", "Nordic Spirit", "On!", "LOOP", "Helwit", "XQS", "Skruf", "White Fox", "Avant", "BAOW", "Elf Bar Tacja", "Fumi", "It's", "Klint", "NEAFS", "Siberia", "VID", "ZONE X", "UBBS"],
+    brands: ["VELO", "ZYN", "Nordic Spirit", "On!", "LOOP", "Helwit", "XQS", "Skruf", "White Fox", "Avant", "BAOW", "Elf Bar Tacja", "Fumi", "It's", "Klint", "NEAFS", "Siberia", "VID", "UBBS"],
     popularity: {
       level: "medium",
       details: "Gaining popularity as an alternative to traditional tobacco products."
@@ -91,13 +91,10 @@ export const locationData: LocationData = {
         buyingGuide: "Finding nicotine pouches in London is relatively straightforward, with many vape shops and tobacco specialists now stocking a wide range of brands. The Soho and Shoreditch areas are particularly well-served, with multiple stores offering competitive prices and knowledgeable staff. Most shops require ID proving you're over 18, and it's recommended to call ahead to check specific brand availability.",
         locations: [
           {
-            title: "Tobacco Dock Vapes",
-            address: "Unit 4, Tobacco Dock, Wapping Lane, London E1W 2SF",
-            description: "Large selection of nicotine pouches and knowledgeable staff.",
+            title: "News Agents and Supermarkets",
+            address: "Most highstreets",
+            description: "You can purchase nicotine pouches in most UK supermarkets and highstreet news agents",
             type: "vape_shop",
-            website: "https://tobaccodockvapes.co.uk",
-            phone: "+44 20 7123 4567",
-            hours: "Mon-Sat: 10:00-19:00, Sun: 11:00-17:00"
           }
         ]
       }

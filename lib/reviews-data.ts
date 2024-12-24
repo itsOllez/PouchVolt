@@ -115,8 +115,43 @@ VELO nicotine pouches are a standout choice for those seeking a modern alternati
         logo: "/brand-logo/nordic-spirit.png",
         website: "https://nordicspirit.com/",
         foundedYear: 2018,
+        pros: ["A wide range of flavors and strengths to suit everyone.", "Super discreet—no one even notices you’re using one.", "High-quality ingredients and consistent manufacturing standards."],
+        cons: ["While the flavors are great, the range isn’t as expansive as some competitors.", "The can design could use a little more flair—it’s functional but not eye-catching.", "Prices have crept up recently, which might put off some users."],
         headquarters: "Stockholm, Sweden",
-        content: ""
+        content: `
+        Let me introduce you to **Nordic Spirit**, one of the most well-loved tobacco-free nicotine pouch brands in the UK. They’ve been around since 2019, and let me tell you, they’ve made quite the name for themselves. Inspired by Sweden’s long-standing tradition of snus, Nordic Spirit offers a sleek, smoke-free, and discreet alternative to traditional tobacco products.  
+
+## Product Overview  
+
+Here’s the lowdown on what they offer:  
+- **Flavors:** You’ve got a solid lineup of 10 options, from classics like mint and spearmint to adventurous picks like bergamot wildberry, elderflower, and mocha. My personal favorite? Watermelon—it’s like summer in a pouch!  
+- **Nicotine Strengths:** Whether you’re a newbie or a seasoned pro, they’ve got you covered. Choose from Mini (3mg), Regular (5.5mg), Strong (8.3mg), or Extra Strong (10.3mg).  
+- **Pouch Sizes:** Available in two sizes, so you can pick what suits your lifestyle best.  
+- **Quantity:** Each can comes with 20 pouches—perfect for on-the-go use.  
+
+## The PouchVolt Experience
+
+Let’s talk about how these pouches deliver in real life.  
+
+- **Flavor:** The flavors are spot on. The mint varieties, in particular, are clean and refreshing without being overpowering. They’ve really nailed the balance.  
+- **Nicotine Delivery:** The steady release of nicotine is a game-changer. It lasts up to 30 minutes, which is just the right amount of time to feel satisfied without overdoing it. However, if you prefer more of a harsh release, these may not be for you.  
+- **Convenience:** These little guys are a lifesaver. Discreet and smoke-free, I can use them literally anywhere—on a coffee break, during a meeting, or even on the train. 
+
+## Our Ratings  
+
+Here’s how I’d rate Nordic Spirit:  
+- **Taste:** 4.5/5  
+- **Flavor Range:** 3.5/5  
+- **Nicotine Strength Options:** 4/5  
+- **Design:** 3.5/5  
+- **Overall:** 4/5  
+
+## Final Thoughts  
+
+If you’re on the hunt for a tobacco-free nicotine pouch, **Nordic Spirit** is a fantastic choice. Sure, the flavor range isn’t the biggest, and the price might sting a little, but the quality and reliability of these pouches more than make up for it. Whether you’re trying to quit smoking or just looking for a cleaner nicotine option, Nordic Spirit ticks most of the boxes. Personally, I’m hooked on their minty freshness and discreet design.  
+
+Give them a try—I’d love to hear what you think!  
+        `
     },
     on: {
         slug: "on",
@@ -146,7 +181,62 @@ VELO nicotine pouches are a standout choice for those seeking a modern alternati
         website: "https://helwit.co.uk/",
         foundedYear: 2021,
         headquarters: "Växjö, Sweden",
-        content: ""
+        content: `# Helwit Nicotine Pouches: A Personal Review
+
+When I first came across **Helwit**, a Swedish brand of nicotine pouches, I wasn’t sure what to expect. But after trying a variety of their products, I can confidently say they’ve made a strong impression on me. Their focus on flavor, quality, and sustainability really stands out, making them a noteworthy option in the nicotine pouch market.
+
+## First Impressions
+
+Helwit originates from Sweden's Småland region, and you can tell there’s a lot of pride and craftsmanship behind their work. They offer a range of **tobacco-free nicotine pouches** that are perfect for those looking for a discreet and enjoyable experience. What really caught my attention, though, was their wide selection of flavors and the thoughtfulness of their design.
+
+---
+
+## Flavor Variety
+
+Helwit’s lineup of flavors is nothing short of impressive. Whether you’re into the classics like **Mint** or want to experiment with something unique like **Violet** or **Mocha**, there’s something for everyone. Here’s a quick peek at some of their options:
+
+- Mint
+- Orange
+- Violet
+- Mocha
+- Blueberry
+- Cherry
+- Cola
+- Banana
+- Salmiak
+
+Personally, I found the **Violet** flavor to be a standout. It’s not something I’d usually go for, but it was a surprisingly pleasant experience—subtle, floral, and just different enough to keep me coming back for more.
+
+---
+
+## Nicotine Strength and Fit
+
+Helwit caters to a range of nicotine preferences with their offerings. They have Regular (7mg/g), Strong (9mg/g), and Extra Strong (12mg/g) options. For someone like me, who prefers a milder experience, the Regular strength was just right. It delivers a gentle buzz without being overwhelming, making it a great choice for beginners or those easing off stronger products.
+
+The pouches themselves are slim and lightweight, weighing just 0.42 grams each. They sit comfortably under your lip and are barely noticeable—perfect for when you’re out and about. Plus, the soft material means no irritation, which is a big plus in my book.
+
+---
+
+## Taste and Longevity
+
+One of the things I appreciated most about Helwit was their attention to flavor quality. They work with some of Europe’s top flavor experts, and it really shows. Each pouch is juicy, flavorful, and delivers a smooth nicotine release, thanks to the premium nicotine they use.
+
+On average, I found that the flavors lasted about 30-40 minutes, which is comparable to other brands. In some cases, they even went longer without losing their punch. For someone who values both flavor and longevity, Helwit checks all the boxes.
+
+---
+
+## Sustainability Matters
+
+Helwit doesn’t just focus on their product; they care about how it’s made, too. Their production facility in Gransholm, Sweden, is powered by a nearby hydropower plant, which is pretty impressive. On top of that, their cans are made of recyclable plastic, so they’re doing their part to minimize environmental impact. It’s always nice to support a brand that aligns with your values.
+
+---
+
+## Final Thoughts
+
+If you’re looking for nicotine pouches that deliver on flavor, comfort, and sustainability, Helwit is a solid choice. While the nicotine strengths might feel a bit light for heavier users, they’re ideal for beginners or anyone trying to scale back their intake. 
+
+For me, Helwit’s unique flavors, smooth delivery, and environmentally conscious approach make them a brand worth sticking with. Whether you’re a seasoned pouch user or just starting out, I’d definitely recommend giving Helwit a try—you might just find your new favorite.
+`
     },
     xqs: {
         slug: "xqs",

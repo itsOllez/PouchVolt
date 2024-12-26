@@ -73,7 +73,7 @@ export default function BrandPage({ params }: Props) {
 
       <div className="container py-8">
         <div className="flex items-center gap-4">
-          <div className="relative h-64 w-64">
+          <div className="relative h-64 w-64 mb-4">
             <Image
               src={brand.logo}
               alt={`${brand.name} logo`}

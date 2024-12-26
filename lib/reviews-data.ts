@@ -317,8 +317,40 @@ For me, Helwit’s unique flavors, smooth delivery, and environmentally consciou
         logo: "/brand-logo/xqs-logo.webp",
         website: "https://xqsnicotinepouches.com",
         foundedYear: 2005,
+        pros: ["Wide range of unique flavors", "Comfortable slim format", "Consistent nicotine delivery", "Attractive packaging design", "Available in both regular and strong strengths"], 
+        cons: ["Some flavors may be too sweet for certain users", "Limited availability of minty options compared to fruity flavors"],
         headquarters: "Dalarna, Sweden",
-        content: ""
+        content: `
+        After spending several weeks testing XQS's lineup of nicotine pouches, we're ready to share our detailed experience with this Swedish brand that's been making waves in the nicotine pouch market.
+
+        ## Initial Impressions
+When we first got our hands on XQS pouches, we were immediately struck by their sleek packaging. Each can contains 20 portions and features bold, vibrant colors that correspond to the flavor inside - a small detail I've come to appreciate when quickly grabbing the right flavor from my collection.
+
+Not so sure on the brand name as it's not clear what it meant but after a little research we found XQS is an abbreviation of "excuse", which also is a bit of an odd choice of brand name...!
+
+## Format and Comfort
+The slim format of XQS pouches is one of their strongest selling points. In our testing, they sit incredibly discreetly under the lip, and I've found them comfortable enough for extended use. The moisture level hits a sweet spot - not as dry as [ZYN](https://pouchvolt.com/reviews/zyn) but not overly wet either. This balanced moisture content helps deliver both flavor and nicotine effectively.
+## Strength Options and Performance
+I've tested both available strengths:
+
+- Regular (4mg): Perfect for casual users or those new to nicotine pouches
+- Strong (10mg): Provides a solid nicotine hit that satisfies more experienced users
+
+The nicotine release is steady and well-balanced, typically lasting around 40 minutes in my experience. I particularly appreciate how consistent the delivery is - you won't get an overwhelming rush followed by a sharp dropoff.
+## Flavor Range and Quality
+After trying their entire lineup, here are my standout favorites:
+Blueberry Mint: Easily my top pick. The flavor balance is exceptional, with the mint providing a refreshing backdrop to the authentic blueberry notes. It maintains its taste profile impressively well throughout the session.
+Black Cherry: A close second. The tartness is perfectly balanced, and the cherry flavor tastes natural rather than medicinal.
+Cactus Sour: An innovative flavor that really sets XQS apart from other brands.
+Some flavors like Pipe Candy and Twin Apple might be a bit sweet for some users, but I personally enjoy their bold approach to flavoring.
+What Works and What Doesn't
+
+## Final Verdict
+After extensive testing, I can confidently say that XQS has earned its place among the top nicotine pouch brands. Their commitment to quality is evident in every aspect - from the comfortable pouch material to the bold, well-executed flavors.
+While they might not be for everyone, particularly those who prefer more traditional or subtle flavors, XQS excels at what they set out to do: create high-quality, flavorful nicotine pouches that deliver a consistent experience.
+Rating: 8.5/10
+I recommend XQS particularly for those who enjoy fruity flavors and appreciate innovative taste combinations. The regular strength is perfect for beginners, while the strong version satisfies even experienced users.
+        `
     },
     skruf: {
         slug: "skruf",
@@ -328,7 +360,71 @@ For me, Helwit’s unique flavors, smooth delivery, and environmentally consciou
         website: "https://skruf.se",
         foundedYear: 2002,
         headquarters: "Sävsjö, Småland, Sweden",
-        content: ""
+        pros: [
+          "Comfortable fit: Users appreciate the slim format of Skruf pouches, which fit comfortably under the lip and don't move around.",
+          "Long-lasting flavor: Many users report that the flavors last for a good duration, typically around 45 minutes.",
+          "Quality pouches: Skruf is praised for its high-quality pouches and consistent performance."
+        ],
+        cons: [
+          "Sweetness: Some users find certain Skruf flavors to be too sweet for their liking.",
+          "Strength variations: The extra strong varieties might be too intense for beginners or those used to milder nicotine products.",
+          "Limited availability: Some users mention that Skruf can be harder to find in physical stores compared to other brands."
+        ],
+        content: `
+        Skruf, a well-known Swedish brand, has firmly established itself in the nicotine pouch market with its range of tobacco-free, white nicotine pouches. Recognized for their quality and innovation, Skruf offers a variety of products designed to suit a wide range of user preferences. 
+
+## Product Overview
+
+Skruf nicotine pouches are available in both slim and regular formats and come in different nicotine strengths.
+
+Each can typically contains between 20 and 24 portions, depending on the specific product. This variety allows users to select a pouch that suits their preferred nicotine intensity, making Skruf a versatile option for both beginners and experienced users alike.
+
+## Flavor Range
+
+Skruf is known for offering a diverse selection of flavors. These range from traditional favorites to more unique options, ensuring there’s something for everyone. Some of the most popular flavors include:
+
+- **Fresh Mint**
+- **Polar Eucalyptus**
+- **Nordic Liquorice**
+- **Indigo Berry**
+- **Purple Cassice**
+- **Frozen Mint**
+
+Whether you’re in the mood for a classic mint or something more adventurous like Nordic Liquorice, Skruf delivers a variety of flavor experiences.
+
+## User Experience
+
+### Comfort and Discretion
+
+One of the standout features of Skruf nicotine pouches is the slim format, which fits comfortably under the lip. This design allows for discreet use without compromising on comfort. For users who prefer a fuller pouch, Skruf’s regular-sized offerings, such as the **Superwhite Max**, provide an excellent alternative, offering a plumper pouch that some users find more satisfying.
+
+### Nicotine Delivery
+
+Skruf is known for providing consistent nicotine delivery across its range of products. The extra strong varieties, such as the **Superwhite Max** (20 mg/g), provide a potent nicotine hit that can satisfy even the most experienced users. 
+
+### Moisture and Longevity
+
+The moisture level of Skruf pouches contributes to their long-lasting freshness. Users commonly report that the flavor lasts for around 45 minutes, with a consistently pleasant experience throughout.
+
+## Flavor Quality
+
+Skruf’s flavors are generally well-received, with users highlighting their balanced profiles. Here’s a closer look at some of the most popular flavors:
+
+- **Fresh Mint**: A refreshing flavor that combines a crisp minty taste with just the right amount of nicotine.
+- **Polar Eucalyptus**: Described by some as an "Arctic breeze," this flavor offers a unique, cool sensation that’s perfect for those who want something different.
+- **Indigo Berry**: A fruity flavor with a bit of sweetness, although some users find it on the sweeter side.
+- **Frozen Mint**: A cool and invigorating mint flavor that offers a nice balance without being too overpowering.
+
+## Packaging and Design
+
+Skruf nicotine pouches come in modern, sleek packaging. Each can typically features a convenient catch lid on top, making it easy to dispose of used pouches. The design of the cans is clean, functional, and visually appealing, contributing to the overall premium feel of the product.
+
+## Conclusion
+
+Skruf nicotine pouches have established themselves as a top choice for those looking for a high-quality, tobacco-free alternative. Their wide range of flavors, nicotine strengths, and comfortable pouch designs cater to a broad spectrum of users. While some users may find certain flavors too sweet or the extra strong variants too intense for beginners, Skruf's overall quality and reliability remain highly praised. For anyone seeking a premium, tobacco-free nicotine pouch experience, Skruf is undoubtedly a brand worth considering.
+
+PouchVolt’s take: Skruf has earned its place as a trusted and reliable brand in the nicotine pouch market. With a well-balanced selection of flavors, consistent nicotine delivery, and a focus on comfort and discretion, Skruf continues to be a favorite among many users worldwide.
+        `
     },
     white_fox: {
         slug: "white-fox",

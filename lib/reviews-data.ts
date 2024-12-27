@@ -434,7 +434,43 @@ PouchVolt’s take: Skruf has earned its place as a trusted and reliable brand i
         website: "https://whitefox.me/",
         foundedYear: 2019,
         headquarters: "Enköping, Sweden",
-        content: ""
+        pros: [
+          "Strong nicotine satisfaction, especially with Full Charge and Black variants",
+          "Long-lasting flavor that can exceed 30-45 minutes",
+          "Slim and comfortable format",
+          "Soft, high-quality pouch material",
+          "Discreet and portable design"
+        ],
+        cons: [
+          "Limited flavor range focused primarily on mint",
+          "Nicotine strengths may be too intense for beginners",
+          "Some flavors, like White Fox Black, might feel too sweet or intense for certain users"
+        ],
+        content: `
+        White Fox is a Swedish brand that has carved out a strong presence in the nicotine pouch market with its premium, tobacco-free offerings. Focused primarily on mint-inspired flavors, White Fox delivers a potent nicotine experience that’s tailored for seasoned users.  
+
+## Product Overview  
+
+Here’s some main flavours White Fox has to offer:  
+  - **White Fox Mint:** Classic mint flavor, 16 mg/g nicotine.  
+  - **White Fox Double Mint:** A refreshing blend of peppermint and spearmint, 12 mg/g nicotine.  
+  - **White Fox Full Charge:** A robust mint flavor with 16.5 mg/g nicotine (Large format).  
+  - **White Fox Black:** A smokey/floral option with a hefty 30 mg/g nicotine.  
+
+## PouchVolt Experience  
+
+White Fox pouches are all about delivering a clean and satisfying experience. The slim format fits comfortably under the lip and feels soft and well-made. The **mint flavors** are bold and refreshing, with White Fox Mint and Double Mint standing out for their crisp and invigorating profiles. For a stronger kick, Full Charge does the trick—it’s the perfect companion for moments when you need a quick, no-fuss nicotine hit.  
+
+If you’re an experienced user looking for something truly intense, **White Fox Black** offers a smokey, floral twist with a whopping 30 mg/g of nicotine. It’s not for the faint of heart, but it’s an impressive option for those who crave strength and complexity.  
+
+The **nicotine delivery** is quick and efficient, offering a steady release that feels satisfying without being overwhelming. Flavors typically last a solid 30-45 minutes, with some stretching up to an hour. The pouches have an ideal moisture level, preventing any excessive dripping while maintaining a smooth flavor and nicotine experience.  
+
+However, the flavor range is quite narrow. White Fox leans heavily into mint, which is fantastic if that’s your thing but might leave others wanting more variety. Beginners should also tread lightly—these pouches pack a punch, and the intensity might be a bit much for those just starting out.  
+
+## Final Thoughts  
+
+White Fox nicotine pouches are an excellent choice for mint enthusiasts and experienced users seeking a potent and long-lasting option. The quality is top-notch, and the slim, discreet design makes them ideal for everyday use. While the flavor range is limited and the nicotine strengths might be too intense for beginners, White Fox is a brand that knows its niche and delivers on its promises.  
+        `
     },
     avant: {
         slug: "avant",

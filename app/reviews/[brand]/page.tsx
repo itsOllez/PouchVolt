@@ -83,8 +83,9 @@ export default function BrandPage({ params }: Props) {
           </div>
           <div>
             <h1 className="text-4xl font-bold tracking-tight">
-              {brand.name} Nicotine Pouch Review
+              {brand.name} Nicotine Pouch Brand Review
             </h1>
+            <p>Founded: {brand.foundedYear}</p>
             <p className="text-lg text-muted-foreground">
               {brand.description}
             </p>

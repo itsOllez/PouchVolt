@@ -480,7 +480,48 @@ White Fox nicotine pouches are an excellent choice for mint enthusiasts and expe
         website: "https://kurbitssnus.com/",
         foundedYear: 2023,
         headquarters: "Sweden",
-        content: ""
+        pros: [
+          "Wide range of unique flavors, including adventurous options like Raspberry Liquorice and Cool Ice Tea",
+          "Strong nicotine satisfaction, particularly with Extra Strong variants",
+          "Comfortable and discreet slim format",
+          "High-quality manufacturing and optimal moisture content",
+          "Competitive pricing for a premium product"
+        ],
+        cons: [
+          "Limited availability as a newer brand",
+          "Strength options may be too intense for beginners",
+          "Fewer strength variations compared to some competitors"
+        ],
+        content: `
+        Avant is one of the newest players in the nicotine pouch market, launching in 2023 under the Swedish brand Kurbits Snus. Despite being a newcomer, Avant has already made a strong impression with its diverse flavor lineup and powerful nicotine delivery.  
+
+## Product Overview  
+
+**Flavors:**  
+- Cool Mint  
+- Frozen Berries  
+- Raspberry Liquorice  
+- Cool Ice Tea  
+- Caffè Mocha  
+- Tropical Banana  
+- Cool Iced Apple  
+
+**Strength Options:**  
+- **Strong:** 7.8 mg/pouch  
+- **Extra Strong:** 10.4 mg - 13.0 mg/pouch  
+
+## PouchVolt's Experience
+
+Avant has really impressed me with its focus on flavor variety and quality. The **Cool Mint** and **Frozen Berries** flavors are standouts—refreshing, bold, and lasting. For something more adventurous, **Raspberry Liquorice** and **Cool Ice Tea** bring unique twists that set Avant apart from other brands.  
+
+The slim format of the pouches fits comfortably under the lip, making them easy to wear discreetly throughout the day. The **nicotine delivery** is efficient, with the Extra Strong variants providing a robust kick that’s satisfying for experienced users. The pouches maintain an excellent **moisture level**, ensuring a quick release of both flavor and nicotine without any messy dripping.  
+
+While Avant's strengths lie in its flavor innovation and satisfying nicotine experience, it may not be the best choice for beginners due to the intensity of its Extra Strong offerings. Additionally, being a relatively new brand, it’s not yet as widely available as some of the established names in the market.  
+
+## Final Thoughts  
+
+Avant is an exciting option for anyone looking to explore new flavors in the nicotine pouch world. Its focus on fruity and minty options, along with its strong nicotine delivery, makes it a great choice for experienced users. However, beginners or those who prefer milder pouches might need to look elsewhere. As Avant grows, I’m eager to see how they expand their flavor and strength ranges.  
+        `
     },
     baow: {
         slug: "baow",
@@ -490,7 +531,44 @@ White Fox nicotine pouches are an excellent choice for mint enthusiasts and expe
         website: "/",
         foundedYear: 2024,
         headquarters: "Sweden",
-        content: ""
+        pros: [
+          "Strong nicotine satisfaction with a smooth delivery",
+          "Unique and bold flavors, particularly Chili Lime and Gin & Tonic",
+          "Comfortable and discreet slim format",
+          "Environmentally conscious production process powered by hydroelectric energy"
+        ],
+        cons: [
+          "May be too strong for beginners",
+          "Limited flavor range compared to competitors",
+          "Availability might be restricted in some regions as a newer brand"
+        ],
+        content: `
+        BAOW is a fresh face in the nicotine pouch market, launched in 2024 by Yoik, the makers of Helwit. With its bold flavors, environmentally conscious production, and strong nicotine content, BAOW has quickly made a name for itself among experienced nicotine users.  
+
+## Brand Overview  
+
+**Flavors:**  
+- **Chili Lime:** A zesty lime base with a spicy chili kick  
+- **Ice Mint:** A cool, classic peppermint flavor  
+- **Gin & Tonic:** A refreshing blend inspired by the iconic cocktail  
+
+**Nicotine Strength:**  
+- 12 mg/pouch  
+
+## Our Experience  
+
+BAOW delivers in several key areas, especially with its flavors. **Chili Lime** is the standout for me—its tart lime notes combined with a touch of heat make it a flavor I keep going back to. The **Gin & Tonic** is also a refreshing surprise, capturing the essence of the cocktail without being overpowering. While **Ice Mint** is more conventional, it’s a solid option for mint lovers.  
+
+The slim pouches are comfortable and discreet under the lip, with a nice softness that feels premium. The nicotine kick is strong, yet surprisingly smooth. Despite the high 12 mg nicotine content, it doesn’t feel overwhelming—it’s more like a regular-strength pouch with a refined delivery.  
+
+BAOW’s focus on sustainability is another highlight. The brand is produced in one of Sweden’s most environmentally friendly factories, powered by hydroelectric energy. Knowing that my choice supports green initiatives adds an extra layer of satisfaction.  
+
+However, the limited flavor range might leave some users wanting more variety, and the intensity of these pouches may not be ideal for beginners. Availability could also be an issue, as it’s still a newer brand in the market.  
+
+## Final Thoughts  
+
+BAOW is an exciting addition to the nicotine pouch market, particularly for those looking for unique flavor combinations and a reliable nicotine experience. Its bold taste profiles, sleek design, and environmental focus make it stand out from the competition. That said, it’s best suited for experienced users due to its strength and distinct flavor intensity.  
+        `
     },
     elf_bar_tacja: {
         slug: "elf-bar-tacja",
@@ -500,7 +578,44 @@ White Fox nicotine pouches are an excellent choice for mint enthusiasts and expe
         website: "https://www.elfbar.com",
         foundedYear: 2023,
         headquarters: "China",
-        content: ""
+        pros: [
+          "Strong nicotine satisfaction for experienced users",
+          "Wide range of unique and bold flavors",
+          "Comfortable slim format with semi-dry texture",
+          "Familiar flavor profiles for Elf Bar vape users"
+        ],
+        cons:[
+          "Limited nicotine strength options (only extra strong)",
+          "Flavor intensity may decrease over time",
+          "May be too strong for beginners or users accustomed to lower nicotine strengths"
+        ],
+        content: `
+        Elf Bar, a brand renowned for its disposable vapes, has ventured into the nicotine pouch market with Tacja. This tobacco-free product line brings a fresh take on nicotine pouches, offering bold flavors and strong nicotine delivery for those seeking a discreet and smoke-free option.
+
+## Flavors and Nicotine Strengths
+Tacja offers a diverse range of flavors, including:
+- Mint
+- Watermelon Ice
+- Blueberry Sour Raspberry
+- Lemon Mango
+- Spearmint
+- Cherry Ice
+- Menthol
+- Freezing Ice
+
+**Nicotine Strengths:**  
+Ranging from 12mg to 20mg per pouch, Tacja pouches are firmly in the extra-strong category, catering to experienced users who prefer higher nicotine levels.
+
+## Our Experience At PouchVolt
+Elf Bar Tacja pouches deliver a robust nicotine hit that feels satisfying but may lean toward intense for those unaccustomed to extra-strong options. I found the **Watermelon Ice** flavor particularly enjoyable—refreshing with a sweet balance reminiscent of a mojito. The **Blueberry Sour Raspberry** was pleasantly fruity, although a touch sweeter than expected.  
+
+The slim format fits comfortably under the lip, and the semi-dry texture prevents excessive dripping while ensuring efficient flavor and nicotine release. However, I noticed the flavor intensity diminishes slightly over time, which might disappoint those seeking longer-lasting taste.  
+
+Tacja’s focus on bold, familiar flavors is a great nod to Elf Bar vape users transitioning to nicotine pouches. That said, the lack of lower strength options limits its appeal to beginners or casual users.  
+
+## Final Thoughts
+Elf Bar Tacja is a compelling new entry into the nicotine pouch market, offering bold flavors, strong nicotine delivery, and a comfortable user experience. While it excels in many areas, expanding its nicotine strength options and enhancing flavor longevity could make it a more versatile and appealing choice for a broader audience.
+        `
     },
     fumi: {
         slug: "fumi",

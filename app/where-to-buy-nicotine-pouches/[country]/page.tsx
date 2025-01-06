@@ -189,31 +189,39 @@ export default function CountryPage({ params }: Props) {
 
           {/* Cities */}
           <section>
-            <h2 className="text-2xl font-semibold mb-4">Cities</h2>
-            <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-              {Object.entries(countryData.cities).map(([citySlug, cityData]) => (
-                <Link
-                  key={citySlug}
-                  href={`/where-to-buy-nicotine-pouches/${createCountrySlug(countryKey)}/${citySlug}`}
-                  className="block"
-                >
-                  <Card className="hover:bg-muted/50 transition-colors">
-                    <CardHeader>
-                      <CardTitle className="flex items-center gap-2">
-                        <MapPin className="h-5 w-5 text-primary" />
-                        {cityData.name}
-                      </CardTitle>
-                    </CardHeader>
-                    <CardContent>
-                      <p className="text-sm text-muted-foreground">
-                        {cityData.locations.length} location{cityData.locations.length !== 1 ? 's' : ''} listed
-                      </p>
-                    </CardContent>
-                  </Card>
-                </Link>
-              ))}
-            </div>
-          </section>
+  <h2 className="text-2xl font-semibold mb-4">Cities</h2>
+  {countryData.legal.status === "illegal" ? (
+    <p>
+      Sorry, you can't purchase nicotine pouches in {countryData.name}, so we
+      don't have any information on specific cities.
+    </p>
+  ) : (
+    <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+      {Object.entries(countryData.cities).map(([citySlug, cityData]) => (
+        <Link
+          key={citySlug}
+          href={`/where-to-buy-nicotine-pouches/${createCountrySlug(countryKey)}/${citySlug}`}
+          className="block"
+        >
+          <Card className="hover:bg-muted/50 transition-colors">
+            <CardHeader>
+              <CardTitle className="flex items-center gap-2">
+                <MapPin className="h-5 w-5 text-primary" />
+                {cityData.name}
+              </CardTitle>
+            </CardHeader>
+            <CardContent>
+              <p className="text-sm text-muted-foreground">
+                {cityData.locations.length} location
+                {cityData.locations.length !== 1 ? 's' : ''} listed
+              </p>
+            </CardContent>
+          </Card>
+        </Link>
+      ))}
+    </div>
+  )}
+</section>
         </div>
       </div>
     </>

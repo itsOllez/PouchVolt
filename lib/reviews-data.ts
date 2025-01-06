@@ -634,8 +634,44 @@ Elf Bar Tacja is a compelling new entry into the nicotine pouch market, offering
         logo: "/brand-logo/its-logo.webp",
         website: "/",
         foundedYear: 2000,
+        pros: [
+          "Wide variety of flavours, including mint, mango, and blackcurrant.",
+          "Available in two nicotine strengths: 8.5mg (strong) and 12mg (extra strong).",
+          "Slim-format pouches are discreet and comfortable under the lip.",
+          "Affordable price compared to many competitors.",
+          "Tobacco-free and easy to use, catering to a hassle-free experience."
+        ],
+        cons: [
+          "Doesn't stand out from other brands in a crowded market.",
+          "Flavours are decent but not groundbreaking.",
+          "Minimal information available about the brand itself.",
+          "No unique or innovative features to differentiate it."
+        ],
         headquarters: "Unknown",
-        content: ""
+        content: `
+        Here at **PouchVolt**, we’ve had the chance to try out **It’s** nicotine pouches, and while they may not scream “premium,” they have a solid place in the world of tobacco-free nicotine products. It’s clear they’re aimed at people looking for something simple, affordable, and effective—without all the bells and whistles.  
+
+## First Impressions  
+The first thing you’ll notice about **It’s** is the variety. Whether you're into fruity flavours like mango and blackcurrant or classic mint, there’s something here for everyone. They come in two nicotine strengths: **8.5mg (strong)** and **12mg (extra strong)** per pouch. This range means whether you’re a casual user or someone who prefers a stronger kick, there’s an option for you.  
+
+However, if you’re hoping for a brand that truly stands out, **It’s** might not be it. The packaging is straightforward, the flavours are solid but not groundbreaking, and the brand’s overall vibe is... well, pretty neutral. That’s not necessarily a bad thing, though—sometimes, no-nonsense is exactly what you want.  
+
+## Flavour and Feel  
+Now let’s talk flavours. The lineup includes staples like **Fresh Mint** and **Mint Ice**, as well as fruity options like **Mango**, **Blackcurrant**, and **Strawberry Kiwi Fusion**. We gave several of these a try, and while none blew our minds, they all delivered decent flavour without being overpowering. The fruit options lean sweet and juicy, while the mint varieties give a refreshing cooling sensation.  
+
+As for how they feel in the mouth, the slim-format pouches get a thumbs-up. They’re discreet, soft, and sit comfortably under the lip without too much bulk. They also seem to hold their flavour for a reasonable amount of time, which is always a plus.  
+
+## Price Point  
+One of the biggest selling points for **It’s** is the price. These pouches are cheaper than many competitors, making them a great budget option. If you’re just getting into nicotine pouches or want a no-frills product that won’t break the bank, **It’s** is worth considering.  
+
+## A Few Drawbacks  
+While **It’s** does a lot of things right, it doesn’t have a “wow” factor. There’s nothing here that sets the brand apart in a crowded market. Plus, there’s not much information out there about the company itself, which makes it hard to get a sense of its story or what drives its product development.  
+
+## Final Thoughts  
+If you’re looking for affordable nicotine pouches with a good variety of flavours and strengths, **It’s** delivers. They’re a straightforward, budget-friendly option that’s easy to recommend for anyone who prioritizes simplicity and value.  
+
+But if you’re someone who likes bold innovation, fancy packaging, or a unique brand identity, you might find **It’s** a little underwhelming. Still, for the price, you’re getting a reliable product that does the job—and sometimes, that’s all you need.  
+        `
     },
     klint: {
         slug: "klint",

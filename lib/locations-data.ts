@@ -88,12 +88,25 @@ export const locationData: LocationData = {
       london: {
         name: "London",
         description: "London offers numerous locations to purchase nicotine pouches, with a growing number of specialized stores and vape shops stocking popular brands.",
-        buyingGuide: "Finding nicotine pouches in London is relatively straightforward, with many vape shops and tobacco specialists now stocking a wide range of brands. The Soho and Shoreditch areas are particularly well-served, with multiple stores offering competitive prices and knowledgeable staff. Most shops require ID proving you're over 18, and it's recommended to call ahead to check specific brand availability.",
+        buyingGuide: "Finding nicotine pouches in London is relatively straightforward, with many vape shops and tobacco specialists now stocking a wide range of brands. Central London is well-served, with multiple stores although prices will be expensive in tourist areas. Most shops require ID proving you're over 18, and it's recommended to call ahead to check specific brand availability.",
         locations: [
           {
             title: "News Agents and Supermarkets",
             address: "Most highstreets",
             description: "You can purchase nicotine pouches in most UK supermarkets and highstreet news agents",
+            type: "vape_shop",
+          }
+        ]
+      },
+      birmingham: {
+        name: "Birmingham",
+        description: "Birmingham offers numerous locations to purchase nicotine pouches, with a growing number of specialized stores and vape shops stocking popular brands.",
+        buyingGuide: "Finding nicotine pouches in Birmingham is relatively straightforward, with many vape shops and tobacco specialists now stocking a wide range of brands. Most shops require ID proving you're over 18, and it's recommended to call ahead to check specific brand availability.",
+        locations: [
+          {
+            title: "News Agents and Supermarkets",
+            address: "Most highstreets",
+            description: "You can purchase nicotine pouches in most supermarkets and highstreet news agents in Birmingham",
             type: "vape_shop",
           }
         ]

@@ -53,7 +53,6 @@ Always follow these important safety guidelines when using nicotine pouches.
   title="Download Our Safety Guide"
   description="Get our comprehensive safety guide in PDF format"
   buttonText="Download Now"
-  buttonLink="/downloads/safety-guide"
 />
 
 ## Common Questions

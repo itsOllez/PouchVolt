@@ -151,11 +151,11 @@ export const locationData: LocationData = {
     name: "France",
     legal: {
       status: "legal",
-      details: "Nicotine pouches are legal and regulated in France."
+      details: "Nicotine pouches are still legal although the government has said their intention of banning nicotine pouches."
     },
     purchasable: {
       status: true,
-      details: "Available through authorized retailers and specialty stores."
+      details: "Available through authorized retailers and specialty stores. Although this might soon change owing to upcoming ban on nicotine pouch products in France."
     },
     brands: ["ZYN", "VELO", "Nordic Spirit"],
     popularity: {
@@ -167,20 +167,92 @@ export const locationData: LocationData = {
   denmark: {
     name: "Denmark",
     legal: {
-      status: "legal",
-      details: "Nicotine pouches are legal in Denmark."
+    status: "legal",
+    details: "Nicotine pouches are legal in Denmark, but subject to regulations."
     },
     purchasable: {
-      status: true,
-      details: "Available through various retail channels."
+    status: true,
+    details: "Available through authorized retailers, but with restrictions on advertising and display so often not particularly obvious where to purchase them."
     },
-    brands: ["Ace", "ZYN", "VELO", "Nordic Spirit"],
+    brands: ["ZYN", "VELO", "Nordic Spirit"],
     popularity: {
-      level: "medium",
-      details: "Increasing popularity as a smoking alternative."
+    level: "medium",
+    details: "Growing popularity, with concerns about youth usage leading to stricter regulations."
     },
-    cities: {}
-  },
+    cities: {
+      copenhagen: {
+        name: "Copenhagen",
+        description: "Copenhagen has good availability of nicotine pouches, with various brands found in many locations throughout the city.",
+        buyingGuide: "Nicotine pouches are readily available in Copenhagen at convenience stores, kiosks, gas stations, and some tobacco shops. Popular brands like VELO are widely stocked.",
+        locations: [
+        {
+        title: "7-Eleven stores",
+        address: "Various locations across Copenhagen",
+        description: "Offers a decent selection of nicotine pouches.",
+        type: "store"
+        },
+        {
+        title: "Kiosks",
+        address: "Throughout Copenhagen",
+        description: "Many kiosks stock nicotine pouches, but may need to ask if they provide these products.",
+        type: "store"
+        },
+        {
+        title: "Copenhagen Airport",
+        address: "Lufthavnsboulevarden 6, 2770 Kastrup",
+        description: "7-Eleven in the landside area stocks nicotine pouches.",
+        type: "store"
+        },
+        ]
+        },
+        
+      aarhus: {
+        name: "Aarhus",
+        description: "Aarhus has decent availability of nicotine pouches, with products found in various kiosks and tobacco stores across the city.",
+        buyingGuide: "Nicotine pouches can be found in many kiosks and tobacco stores in Aarhus. Prices may vary, with some stores offering more competitive rates than others.",
+        locations: [
+        {
+        title: "Kiosk 25",
+        address: "Stjernepladsen, Aarhus, Denmark",
+        description: "Offers a selection of nicotine pouches and snus products.",
+        type: "store"
+        },
+        {
+        title: "Langelandsgade Kiosk",
+        address: "Langelandsgade, Aarhus, Denmark",
+        description: "Stocks various nicotine pouch brands.",
+        type: "store"
+        },
+        {
+        title: "Various Kiosks",
+        address: "Throughout Aarhus",
+        description: "Many kiosks in Aarhus stock nicotine pouches, with prices around 60 kr per pack.",
+        type: "store"
+        }
+        ]
+        },
+        odense: {
+          name: "Odense",
+          description: "Odense has limited availability of nicotine pouches, with products found in some local shops and kiosks.",
+          buyingGuide: "Nicotine pouches can be found in various kiosks and local shops in Odense. The selection may be limited compared to larger cities, but popular brands are generally available.",
+          locations: [
+          {
+          title: "Local Kiosks",
+          address: "Various locations throughout Odense",
+          description: "Many kiosks in Odense stock nicotine pouches and chew bags.",
+          type: "store"
+          },
+          {
+          title: "Tobacco Shops",
+          address: "Various locations in Odense",
+          description: "Specialized tobacco shops may offer a wider selection of nicotine pouches.",
+          type: "store"
+          }
+          ]
+          }
+          }
+        },
+   
   japan: {
     name: "Japan",
     legal: {

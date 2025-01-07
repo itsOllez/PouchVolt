@@ -77,7 +77,7 @@ export const locationData: LocationData = {
     },
     purchasable: {
       status: true,
-      details: "Widely available through specialized tobacco shops, vape stores, and some convenience stores."
+      details: "Widely available through specialized tobacco shops, vape stores, and most highstreet convenience stores."
     },
     brands: ["VELO", "ZYN", "Nordic Spirit", "On!", "LOOP", "Helwit", "XQS", "Skruf", "White Fox", "Avant", "BAOW", "Elf Bar Tacja", "Fumi", "It's", "Klint", "NEAFS", "Siberia", "VID", "UBBS"],
     popularity: {
@@ -267,13 +267,65 @@ type: "store"
     },
     purchasable: {
       status: true,
-      details: "Available through authorized retailers."
+      details: "Nicotine pouches can sometimes be found in Tobacco Shops (Tabaccai) although availability is inconsistent."
     },
-    brands: ["Redmuule", "VELO", "LYFT", "ZYN", "KILLA", "Pablo", "White Fox"],
+    brands: ["VELO"],
     popularity: {
       level: "medium",
       details: "Growing popularity with increasing consumer adoption."
     },
-    cities: {}
+    cities: {
+      "rome": {
+        "name": "Rome",
+        "description": "Rome has limited availability of nicotine pouches, but they can be found in some specialized tobacco shops and through online retailers.",
+        "buyingGuide": "While nicotine pouches are not widely available in physical stores in Rome, some tobacco shops (tabaccherie) may stock them. It's advisable to ask for 'nicotine pouches' or 'tobacco-free snus' when inquiring. Online ordering remains the most reliable option for a wider variety of products, with several websites offering delivery to Rome.",
+        "locations": [
+          {
+            "title": "Tabaccheria Centrale",
+            "address": "Via del Corso, Rome, Italy",
+            "description": "Central tobacco shop that occasionally stocks nicotine pouches, including VELO brand.",
+            "type": "store"
+          },
+          {
+            "title": "Tabbachi e Souvenirs",
+            "address": "Via Nazionale, Rome, Italy",
+            "description": "Tobacco and souvenir shop that may carry a limited selection of nicotine pouches.",
+            "type": "store"
+          }
+        ]
+      },
+      "milan": {
+        "name": "Milan",
+        "description": "Milan has slightly better availability of nicotine pouches compared to other Italian cities, but options are still limited. Some tobacco shops and specialized stores carry these products.",
+        "buyingGuide": "While nicotine pouches are not widely available in physical stores in Milan, some tobacco shops (tabaccherie) may stock them. It's advisable to ask for 'nicotine pouches' or 'tobacco-free snus' when inquiring. Online ordering remains the most reliable option for a wider variety of products.",
+        "locations": [
+          {
+            "title": "Tabaccheria Centrale",
+            "address": "Piazza del Duomo, Milan, Italy",
+            "description": "Central tobacco shop that occasionally stocks nicotine pouches, including VELO brand.",
+            "type": "store"
+          },
+          {
+            "title": "Tabaccheria Piola",
+            "address": "Piazzale Gabrio Piola 12, 20131 Milan, Italy",
+            "description": "Tobacco shop that occasionally stocks nicotine pouches.",
+            "type": "store"
+          }
+        ]
+      },
+      "florence": {
+        "name": "Florence",
+        "description": "Florence has limited availability of nicotine pouches, with only a few specialized shops carrying these products.",
+        "buyingGuide": "Finding nicotine pouches in Florence can be challenging. Some specialized tobacco shops may stock them, but availability is inconsistent. Asking for 'tobacco-free snus' or 'nicotine pouches' in English might help. Online ordering remains the most reliable option.",
+        "locations": [
+          {
+            "title": "Castellana",
+            "address": "Via dei Servi, Florence, Italy",
+            "description": "Specialized tobacco shop known to carry various tobacco products, including some nicotine pouches.",
+            "type": "store"
+          }
+        ]
+      }
+    }
   }
 };

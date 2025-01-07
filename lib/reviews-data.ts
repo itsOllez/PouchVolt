@@ -760,8 +760,76 @@ But if you’re someone who likes bold innovation, fancy packaging, or a unique 
       logo: "/brand-logo/sesh-logo.png",
       website: "https://seshproducts.com",
       foundedYear: 2020,
+      pros: [
+        "Slim design and soft texture fit comfortably under the lip for extended wear",
+        "Mint flavor is refreshing without being overpowering; Mango offers a mellow sweetness",
+        "Nicotine delivery is steady and comparable to well-known brands like Zyn",
+        "Gum-based formulation allows for gentle chewing to enhance flavor and nicotine release",
+        "Moisture enhancers, such as MCT oil, provide a softer, less abrasive feel under the lip",
+      ],
+      cons: [
+        "Moisture content can feel slightly dry for some users despite the enhancers",
+        "Flavor and nicotine release last around 30 minutes, which may feel short for some users",
+        "Gum-based feature may not appeal to those who prefer traditional nicotine pouches",
+      ],
       headquarters: "Vancouver, Canada",
-      content: "Sesh offers innovative nicotine products, focusing on Sesh+ nicotine pouches."
+      content: `Sesh Nicotine Pouches have emerged as a popular alternative in the tobacco-free nicotine market, and we recently had the opportunity to try them out. Below is our comprehensive review, based on our first-hand experiences and additional user testimonials.
+
+---
+
+## Product Overview
+
+Sesh nicotine pouches are manufactured in Sweden, a country renowned for its expertise in snus and nicotine pouch production. The brand offers tobacco-free, smoke-free, and spit-free pouches, providing a discreet way to enjoy nicotine.
+
+---
+
+## Key Features
+
+- **Nicotine Strengths**: Available in 4mg, 6mg, and 8mg options  
+- **Flavors**: Mango, Mint, Wintergreen, and Clear  
+- **Synthetic Nicotine**: Uses premium synthetic nicotine  
+- **Softer Mouth Feel**: Contains moisture enhancers for added comfort  
+- **Gum-Based Formulation**: Offers a unique texture and chewable experience  
+
+---
+
+## Our User Experience
+
+### Comfort  
+We found that the slim design and soft texture fit comfortably under the lip, making it easy to wear for extended periods. The pouches stayed in place and did not irritate our gums.
+
+### Flavor  
+From our own testing, the **Mint** flavor stood out as particularly refreshing—cool without being overpowering. For those who prefer fruitier profiles, the **Mango** option provides a mellow sweetness.
+
+### Nicotine Delivery  
+In our opinion, the nicotine delivery from Sesh pouches is quite satisfactory. We found it to be on par with other well-known brands like Zyn, providing a steady release and noticeable effect.
+
+### Moisture Content  
+We generally felt the pouches were adequately moist, though this can vary. Some of our group noticed they were slightly on the drier side, but the moisture enhancers do seem to help maintain a comfortable mouth feel.
+
+### Duration  
+The flavor and nicotine release comfortably lasted up to about **30 minutes**, which is fairly standard for nicotine pouches. This duration may vary depending on your personal chewing habits.
+
+---
+
+## Unique Selling Points
+
+### Chewable Pouches  
+One of the most distinctive features is the gum-based formulation, allowing you to gently chew the pouch for an extra burst of nicotine and flavor. This can be a game-changer if you enjoy a more interactive experience.
+
+### Moisture Enhancers  
+Sesh uses MCT oil to enhance moisture and provide a softer feel under the lip. This small touch can make for a more pleasant and less abrasive experience compared to some other nicotine pouch brands.
+
+### Premium Ingredients  
+All of the ingredients in Sesh pouches—including its high-grade synthetic nicotine—are designed with quality in mind. We appreciate that they appear to take a conscientious approach to formulation.
+
+---
+
+## Conclusion
+
+From our perspective, Sesh Nicotine Pouches appear to be a solid choice for anyone looking to explore a tobacco-free nicotine alternative. The brand’s commitment to quality, comfort, and flavor shines through in each pouch. Its gum-based formulation and moisture enhancements set it apart in a crowded marketplace.
+
+However, experiences can vary from person to person. If you’re new to nicotine pouches, you may want to start with the lower nicotine strengths to see how you tolerate them. Overall, we believe Sesh is worth a try for those seeking an innovative and reliably enjoyable pouch experience.`
       },
       lucy: {
       slug: "lucy",

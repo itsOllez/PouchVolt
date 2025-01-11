@@ -22,9 +22,9 @@ export const metadata: Metadata = {
 function toTitleCase(str: string): string {
   return str
     .toLowerCase()
-    .split(' ')
+    .split(/[\s\-]+/) // Split on spaces or hyphens
     .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-    .join(' ');
+    .join(' '); // Join words with a single space
 }
 
 const safetyIcons = {
@@ -43,7 +43,7 @@ export default function ActivitiesPage() {
   return (
     <div className="container py-8">
       <h1 className="text-4xl font-bold tracking-tight mb-6">
-        Nicotine Pouches & Activities Guide
+        Where Can You Use Nicotine Pouches? - Activity Guides
       </h1>
 
       <div className="prose dark:prose-invert max-w-none mb-8">

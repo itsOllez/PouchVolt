@@ -94,16 +94,6 @@ const routes = [
         description: "Everything you need to know about nicotine pouches"
       },
       {
-        title: "Top Brands 2024",
-        href: "/guides/reviews/top-brands-2024",
-        description: "Comprehensive review of the best brands this year"
-      },
-      {
-        title: "Health Effects",
-        href: "/guides/health/nicotine-effects",
-        description: "Understanding how nicotine affects your body"
-      },
-      {
         title: "All Guides",
         href: "/guides",
         description: "Browse all guides and articles"

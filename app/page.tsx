@@ -69,7 +69,6 @@ export default function Home() {
             Get ready to shop for your favorite nicotine pouches directly from our site. 
             We're curating a selection of top-quality products for your convenience.
           </p>
-         
         </div>
       </section>
 

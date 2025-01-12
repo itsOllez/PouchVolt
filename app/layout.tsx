@@ -19,7 +19,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <ThemeProvider
           attribute="class"
-          defaultTheme="system"
+          defaultTheme="light" //change to "system" if want dynamic
           enableSystem
           disableTransitionOnChange
         >

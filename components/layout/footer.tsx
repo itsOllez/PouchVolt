@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Separator } from "@/components/ui/separator";
-import { Zap } from "lucide-react";
+import { Zap, Facebook, Twitter, Instagram, Linkedin } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -71,19 +71,21 @@ export default function Footer() {
         </div>
         <Separator className="my-8" />
         <p className="mt-4 text-sm text-muted-foreground">
-        This website is for informational purposes only and is not intended to provide medical, legal, or professional advice. Readers are responsible for ensuring compliance with the laws and regulations of their country regarding nicotine products. Nicotine pouches are intended for adults of legal age as defined in their jurisdiction.
-The author assumes no responsibility for any actions taken based on the information provided on this site. Consult a healthcare professional before using nicotine products, particularly if you have underlying health conditions, are pregnant or breastfeeding, or are taking medications.
+          This website is for informational purposes only and is not intended to provide medical, legal, or professional advice. Readers are responsible for ensuring compliance with the laws and regulations of their country regarding nicotine products. Nicotine pouches are intended for adults of legal age as defined in their jurisdiction.
+          The author assumes no responsibility for any actions taken based on the information provided on this site. Consult a healthcare professional before using nicotine products, particularly if you have underlying health conditions, are pregnant or breastfeeding, or are taking medications.
 
-By accessing this site, you acknowledge and agree to these terms.
-
-
+          By accessing this site, you acknowledge and agree to these terms.
         </p>
         <Separator className="my-8" />
         <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
           <p className="text-sm text-muted-foreground">
             © {new Date().getFullYear()} PouchVolt. All rights reserved.
           </p>
-          <div className="flex gap-4">
+          <div className="flex items-center gap-4">
+            <Link href="https://www.instagram.com/pouchvolt" className="text-muted-foreground hover:text-primary">
+              <Instagram className="h-5 w-5" />
+              <span className="sr-only">Instagram</span>
+            </Link>
             <Link href="/sitemap.xml" className="text-sm text-muted-foreground hover:text-primary">
               Sitemap
             </Link>
@@ -93,3 +95,4 @@ By accessing this site, you acknowledge and agree to these terms.
     </footer>
   );
 }
+

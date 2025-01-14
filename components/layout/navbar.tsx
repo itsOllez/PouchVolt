@@ -175,8 +175,9 @@ export default function Navbar() {
             </SheetTrigger>
             <SheetContent side="right">
               <div className="flex items-center gap-2 mb-6">
-                <Zap className="h-6 w-6 text-primary" />
-                <span className="font-bold">PouchVolt</span>
+              <Link href="/" className="flex items-center">
+                <img src="/pouchvolt-cropped-cropped.svg" alt="PouchVolt Logo" className="h-8 w-auto" />
+              </Link>
               </div>
               <nav className="flex flex-col gap-4">
                 {routes.map((route) => (

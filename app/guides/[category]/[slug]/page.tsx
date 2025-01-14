@@ -195,10 +195,10 @@ Always follow these important safety guidelines when using nicotine pouches.
       modifiedTime: "2024-01-16T10:00:00Z",
       author: {
         name: "PouchVolt",
-        url: "/authors/jane-doe",
+        url: "/",
         image: "/logo.png"
       },
-      heroImage: "https://images.unsplash.com/photo-1682777119396-382cff6b174b?q=80&w=3472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dhttps://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=1200&h=630&fit=crop",
+      heroImage: "/article-images/podium.webp",
     }
   },
   "health": {

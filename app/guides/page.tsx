@@ -41,7 +41,7 @@ const guides = {
           name: "PouchVolt",
           image: "/logo.png"
         },
-        heroImage: "https://images.unsplash.com/photo-1682777119396-382cff6b174b?q=80&w=3472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dhttps://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=1200&h=630&fit=crop"
+        heroImage: "/article-images/podium.webp"
       }
     }
   },
@@ -75,7 +75,7 @@ export default function GuidesPage() {
       name: "PouchVolt",
       logo: {
         "@type": "ImageObject",
-        url: "https://your-domain.com/logo.png"
+        url: "/pouchvolt-cropped-cropped.svg"
       }
     }
   };

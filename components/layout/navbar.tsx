@@ -84,18 +84,18 @@ const routes = [
     ]
   },
   {
-    title: "Guides",
+    title: "Articles",
     icon: BookOpen,
-    href: "/guides",
+    href: "/articles",
     items: [
       {
         title: "Getting Started",
-        href: "/guides/beginners/getting-started",
+        href: "/beginners/getting-started",
         description: "Everything you need to know about nicotine pouches"
       },
       {
-        title: "All Guides",
-        href: "/guides",
+        title: "All Articles",
+        href: "/articles",
         description: "Browse all guides and articles"
       }
     ]

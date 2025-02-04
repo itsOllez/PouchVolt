@@ -19,8 +19,8 @@ export default function Home() {
       <section className="relative bg-gradient-to-b from-primary/10 to-background pt-24 pb-10">
         <div className="container relative flex flex-col items-center text-center gap-8">
           <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl">
-            Your Trusted Guide to
-            <span className="text-primary"> Nicotine Pouches</span>
+            Nicotine Pouches with
+            <p className="text-8xl text-primary mt-4"> PouchVolt</p>
           </h1>
           <p className="max-w-[700px] text-lg text-muted-foreground sm:text-xl">
             Comprehensive information, expert reviews, and detailed guides to help you make informed decisions.

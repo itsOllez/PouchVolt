@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: { params: { category: string;
     };
   }
 
-  const canonicalUrl = `https://pouchvolt.com/guides/${article.category}/${article.slug}`;
+  const canonicalUrl = `https://pouchvolt.com/${article.category}/${article.slug}`;
 
   return {
     title: article.title,

@@ -20,8 +20,8 @@ export default function Footer() {
             <h3 className="text-lg font-semibold">Resources</h3>
             <ul className="mt-4 space-y-2">
               <li>
-                <Link href="/guides" className="text-muted-foreground hover:text-primary">
-                  Guides
+                <Link href="/articles" className="text-muted-foreground hover:text-primary">
+                  Articles
                 </Link>
               </li>
               <li>
